@@ -1,0 +1,25 @@
+read / avs / full_mesh.inp / mo
+cmo / modatt / mo / isn / ioflag / l
+cmo / modatt / mo / x_four / ioflag / l
+cmo / modatt / mo / fac_n / ioflag / l
+cmo / modatt / mo / dfield / ioflag / l
+cmo / modatt / mo / rf_field / ioflag / l
+cmo / modatt / mo / a_b / ioflag / l
+cmo / modatt / mo / b_a / ioflag / l
+cmo / modatt / mo / xnorm / ioflag / l
+cmo / modatt / mo / ynorm / ioflag / l
+cmo / modatt / mo / znorm / ioflag / l
+cmo / modatt / mo / evol_one / ioflag / l
+cmo / modatt / mo / evol_all / ioflag / l
+cmo / modatt / mo / numbnd / ioflag / l
+cmo / modatt / mo / id_numb / ioflag / l
+cmo / modatt / mo / evol_all / ioflag / l
+cmo / modatt / mo / itp / ioflag / l
+cmo / modatt / mo / icr / ioflag / l
+cmo / modatt / mo / meshid / ioflag / l
+cmo / modatt / mo / id_n_1 / ioflag / l
+cmo / modatt / mo / id_n_2 / ioflag / l
+cmo / modatt / mo / pt_gtg / ioflag / l
+dump / materialid.inp / mo
+finish
+

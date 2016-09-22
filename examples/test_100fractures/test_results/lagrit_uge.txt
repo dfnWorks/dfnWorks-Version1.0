@@ -1,0 +1,204 @@
+ 
+ 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+*               *                                             *                 
+*               *    Program:  LaGriT V3.103   Linux m64      *                 
+*               *    date_compile: 2015/03/15  RH gf4.5       *                 
+*               *    Run Time: 2016/May 26  17:48:08          *                 
+*               *    Manual:   http://lagrit.lanl.gov         *                 
+*               *                                             *                 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+ 
+                               -----oOo-----                                    
+                           LaGriT V3 LACC-2012-084                              
+LaGriT Copyright: This program was prepared by Los Alamos National Security, LLC
+at Los Alamos National Laboratory (LANL) under contract No. DE-AC52-06NA25396   
+with the U.S. Department of Energy (DOE). All rights in the program are reserved
+by the DOE and Los Alamos National Security, LLC. Permission is granted to the  
+public to copy and use this software without charge, provided that this Notice  
+and any statement of authorship are reproduced on all copies. Neither the       
+U.S. Government nor LANS makes any warranty, express or implied, or assumes     
+any liability or responsibility for the use of this software.                   
+                               -----oOo-----                                    
+ 
+ 
+Output log file: outx3dgen                                                      
+Command log file: logx3dgen                                                     
+ 
+ Enter a command
+read/avs/full_mesh.inp/mo1                                                      
+                    8                    1
+cmo/addatt/mo1/dfield/VDOUBLE/scalar/nnodes/linear/permanent/gxaf/0.0           
+finish                                                                          
+cmo/addatt/mo1/b_a/VINT/scalar/nnodes/linear/permanent/gxaf/0.0                 
+finish                                                                          
+cmo/addatt/mo1/numbnd/VINT/scalar/nnodes/linear/permanent/gxaf/0.0              
+finish                                                                          
+cmo/addatt/mo1/id_numb/VINT/scalar/nnodes/linear/permanent/gxaf/0.0             
+finish                                                                          
+cmo/addatt/mo1/evol_onen/VDOUBLE/scalar/nelements/linear/permanent/gxaf/0.0     
+finish                                                                          
+geniee                                                                          
+ geniee: mesh has                 15331  jtet loops, max cycle length=          
+                                                                               4
+finish                                                                          
+cmo/status/brief                                                                
+ 
+The current-mesh-object(CMO) is: mo1                                            
+ 
+  1 Mesh Object name: mo1                                                       
+    number of nodes =        210926        number of elements =       441377    
+    dimensions geometry =         3        element type =                tri    
+    dimensions topology =         2        3 nodes      3 faces      3 edges    
+    boundary flag =        16000000        status =                   active    
+ 
+ 
+finish                                                                          
+ Enter a command
+dump/pflotran/full_mesh/mo1/nofilter_zero                                       
+***Construct Regular Sparse Matrix:2D***                                        
+ io_type =                    12
+Matbldtri: total neg      134 mincoef=  -7.7272614E-07 maxcoef=   4.4216028E+00 
+Negative coeff2d:        sort   edge     vor_coeff        row_node  col_node    
+Negative coeff2d:          1    309500 -7.7272614E-07     44066     43966       
+Negative coeff2d:          2    308795 -7.7272614E-07     43966     44066       
+Negative coeff2d:          3   1133107 -1.5228972E-11    158363    158338       
+Negative coeff2d:          4   1132932 -1.5228972E-11    158338    158363       
+Negative coeff2d:          5   1132035 -1.3512238E-11    158219    158197       
+Negative coeff2d:          6   1131875 -1.3512238E-11    158197    158219       
+Negative coeff2d:          7    218173 -1.1062312E-11     31075     31057       
+Negative coeff2d:          8    218052 -1.1062312E-11     31057     31075       
+Negative coeff2d:          9   1132904 -1.0768732E-11    158335    158361       
+Negative coeff2d:         10   1133094 -1.0768732E-11    158361    158335       
+Negative coeff2d:         11   1132410 -1.0510068E-11    158268    158314       
+Negative coeff2d:         12   1132750 -1.0510068E-11    158314    158268       
+Negative coeff2d:         13   1132658 -1.0508769E-11    158301    158357       
+Negative coeff2d:         14   1133060 -1.0508769E-11    158357    158301       
+Negative coeff2d:         15   1133002 -1.0508768E-11    158349    158292       
+Negative coeff2d:         16   1132592 -1.0508768E-11    158292    158349       
+Negative coeff2d:         17   1132383 -1.0506173E-11    158265    158311       
+Negative coeff2d:         18   1132723 -1.0506173E-11    158311    158265       
+Negative coeff2d:         19   1132590 -9.8950168E-12    158292    158314       
+Negative coeff2d:         20   1132752 -9.8950168E-12    158314    158292       
+Negative coeff2d:         21   1131675 -8.7277020E-12    158170    158216       
+Negative coeff2d:         22   1132008 -8.7277020E-12    158216    158170       
+Negative coeff2d:         23   1131848 -8.7268955E-12    158194    158155       
+Negative coeff2d:         24   1131568 -8.7268955E-12    158155    158194       
+Negative coeff2d:         25   1131298 -8.7246121E-12    158117    158153       
+Negative coeff2d:         26   1131547 -8.7246121E-12    158153    158117       
+Negative coeff2d:         27   1131900 -8.7246113E-12    158200    158247       
+Negative coeff2d:         28   1132244 -8.7246113E-12    158247    158200       
+Negative coeff2d:         29   1132282 -8.7220159E-12    158251    158204       
+Negative coeff2d:         30   1131936 -8.7220159E-12    158204    158251       
+------------                                                                    
+Matbldtri                                                                       
+Number of Nodes             =     210926                                        
+Max. Connection to a Node   =         15                                        
+Number of Area Coefficients =    1515904                                        
+Minimum Voronoi area        =   2.7511051E-04                                   
+Maximum Voronoi area        =   2.4382143E-01                                   
+Minimum Voronoi edge length =  -7.7272614E-07                                   
+Maximum Voronoi edge length =   4.4216028E+00                                   
+Total   Voronoi area        =   1.9350908E+03                                   
+Total   Triangle area       =   1.9350908E+03                                   
+ 
+Matbldtri  writing PFLOTRAN format.                                             
+PFLOTRAN total CELL nodes =       210926                                        
+PFLOTRAN will not filter zero coefs.                                            
+PFLOTRAN coefficient from matbld Aij/Xij  max  =   4.4216028E+00                
+  -no filter astor                  4993                 4999 -3.84630844797953937E-012                34647
+  -no filter astor                 66604                66608  2.13467966090028642E-013               471741
+  -no filter astor                 68227                68260 -1.39449798832804093E-013               483093
+  -no filter astor                 73664                73692 -1.81639712528682990E-013               522118
+  -no filter astor                 95520                95521 -5.75250507375970111E-013               678148
+  -no filter astor                 97382                97385 -3.59042173426535036E-012               691527
+  -no filter astor                121023               121025 -3.94454512404964430E-013               862342
+  -no filter astor                122117               122132 -1.31323000322754369E-012               870281
+  -no filter astor                123544               123550 -4.34918707914311009E-013               880189
+  -no filter astor                137224               137228  3.12215993848606801E-012               980237
+  -no filter astor                137829               137852 -8.69832815106074069E-013               984401
+  -no filter astor                138583               138588 -1.30801681385594279E-012               989709
+  -no filter astor                141468               141495  9.44311873434433376E-013              1010815
+  -no filter astor                141480               141496  1.04391873150757784E-012              1010895
+  -no filter astor                144779               144913  6.88055904490660607E-013              1034294
+  -no filter astor                145324               145359  1.55278799642606413E-012              1038003
+  -no filter astor                154131               154143  3.99562639981008082E-012              1102383
+  -no filter astor                154504               154537  2.49270062441465383E-012              1105066
+  -no filter astor                155764               155856  3.90216133004422610E-012              1114278
+  -no filter astor                155913               155987  7.27456709311258656E-013              1115366
+  -no filter astor                155974               156042  2.71468730306432064E-013              1115809
+  -no filter astor                156259               156305 -3.73167581145888467E-012              1117888
+  -no filter astor                156266               156314  1.61612868474959210E-013              1117939
+  -no filter astor                156276               156322 -2.07448239496345238E-012              1118016
+  -no filter astor                156283               156331 -2.80300184831525557E-012              1118066
+  -no filter astor                156305               156352  1.89380803004965133E-012              1118222
+  -no filter astor                156314               156322  3.73425135036446327E-012              1118283
+  -no filter astor                156314               156360  2.36207577471445260E-012              1118286
+  -no filter astor                156322               156331  1.14590002636372438E-012              1118347
+  -no filter astor                156643               156653 -4.09060273457923972E-012              1120667
+  -no filter astor                156653               156663  6.44720984964712999E-013              1120740
+  -no filter astor                156663               156669  2.49337830823070100E-012              1120813
+  -no filter astor                158134               158168  8.60884039815271437E-013              1131416
+  -no filter astor                158147               158182 -2.36629584798504675E-012              1131505
+  -no filter astor                158158               158176 -2.96539907011493115E-012              1131587
+  -no filter astor                158173               158194 -8.64130708450664116E-013              1131697
+  -no filter astor                158173               158219  2.96386954201169278E-012              1131699
+  -no filter astor                158184               158229  8.60381044769826668E-013              1131778
+  -no filter astor                158192               158213  1.10532047970408673E-012              1131838
+  -no filter astor                158192               158240  4.28523526219454348E-012              1131840
+  -no filter astor                158195               158242  2.97004909919133537E-012              1131863
+  -no filter astor                158216               158265 -2.98891112729551857E-012              1132014
+  -no filter astor                158221               158242 -2.96860003049709511E-012              1132054
+  -no filter astor                158224               158270  2.40195078177955930E-012              1132080
+  -no filter astor                158226               158247 -8.59971127834184385E-013              1132092
+  -no filter astor                158226               158272  8.43963389971482695E-014              1132094
+  -no filter astor                158242               158290 -2.59270557870399648E-015              1132214
+  -no filter astor                158247               158294  2.71296991206834284E-012              1132252
+  -no filter astor                158251               158272 -4.30836898559923263E-012              1132287
+  -no filter astor                158265               158285 -1.95367568444432630E-012              1132381
+  -no filter astor                158268               158290 -3.88566321506070082E-012              1132408
+  -no filter astor                158276               158330  3.08070199923221830E-013              1132472
+  -no filter astor                158285               158309  4.15554238029423667E-012              1132537
+  -no filter astor                158301               158326 -3.53974226556228333E-012              1132656
+  -no filter astor                158305               158330 -3.54270087534927372E-012              1132686
+  -no filter astor                158330               158357  4.15222377249979249E-012              1132866
+  -no filter astor                158330               158382  3.53641837822209412E-012              1132868
+  -no filter astor                158354               158377 -1.18410353339756241E-012              1133042
+  -no filter astor                158361               158407 -9.28496216660208528E-013              1133099
+  -no filter astor                158377               158401  9.23584301055486144E-013              1133219
+  -no filter astor                158387               158407  4.15672694709642405E-012              1133294
+  -no filter astor                158391               158411 -3.07798533400451005E-013              1133321
+  -no filter astor                158401               158447 -9.28496293482430107E-013              1133399
+  -no filter astor                158411               158459 -4.15430401089184868E-012              1133475
+  -no filter astor                158422               158476  6.09143329596035272E-013              1133561
+  -no filter astor                158452               158476 -6.01115956140280687E-013              1133777
+  -no filter astor                159106               159120 -2.49847719217215810E-012              1138651
+  -no filter astor                163133               163172  4.75628622147368378E-013              1167653
+  -no filter astor                179238               179297 -1.39334897788591676E-012              1284546
+  -no filter astor                179732               179733  2.39373915947786037E-013              1288044
+  -no filter astor                182938               182943 -3.97027393960807671E-012              1311414
+  -no filter astor                184314               184317 -1.93891571853985264E-012              1321423
+  -no filter astor                185119               185123 -1.28956896441347084E-012              1327154
+  -no filter astor                197871               197876  6.24149414399199704E-013              1420714
+  -no filter astor                198645               198648 -2.62774579284800133E-013              1426272
+  -no filter astor                200498               200501 -8.24064086158282816E-013              1439954
+  -no filter astor                206287               206296  2.41802921687820831E-012              1482629
+  -count nconn               652489
+  -count nzero                   77
+  
+PFLOTRAN total matbld matrix coefficients   =   1515904                         
+PFLOTRAN matrix  i>j (written)              =    652489                         
+PFLOTRAN matrix  i<=j (not written)        =     863415                         
+PFLOTRAN zero coefs < epsilon    (written)  =        77                         
+ 
+PFLOTRAN total CONNECTIONS written         =     652489                         
+PFLOTRAN coefficient  Aij min              =  -9.7439146E-08                    
+PFLOTRAN coefficient  Aij max              =   5.8363334E-01                    
+ 
+*** SPARSE COEFFICIENT MATRIX for 2D SUCCESSFUL ***                             
+ 
+2D Matrix Coefficient file written with name full_mesh.uge                      
+ 
+ Enter a command
+finish                                                                          
+LaGriT successfully completed                                                   

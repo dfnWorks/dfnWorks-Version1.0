@@ -1,0 +1,28 @@
+Stopped: maximum attempt reached.
+Final fractures number: 77
+Final fractures total surface area (Total fracture Area * 2) = 3914.74
+Final fractures total volume (Fractures Area *Fractures Aperture) = 2.32783
+Final fracture density (No of fractures per unit volume), P30 = 0.077
+Final fracture intensity (Area of fractures per unit volume), P32 = 1.95737
+Final fracture porosity (Volume of fractures per unit volume), P33 = 0.00232783
+Number of families for each shape: 
+*0 families of ellipses;
+*2 families of rectangles;
+*0 user defined ellipses;
+*0 user defined rectangles;
+Domain (m) = {-5.<=x<=5.,  -5.<=y<=5.,  -5.<=z<=5.}
+Domain Volume (m^3)= 1000.
+h (m)= 0.1
+Attempted fractures (number of polygons created during the program 
+while attempting to reach the desired number of fractures): 10000
+Final number of fractures: 77.
+Accepted number of fractures (number of fractures accepted, but
+that may have been eliminated because they were isolated or weren't 
+part of a network that connected two of the boundary faces: 78.
+Number of fractures rejected because they were isolate or not part of
+a network connecting two boundary faces: -1.
+Number of fracture networks (in the final mesh): 1.
+Sizes of fracture networks/groups: {77}.
+Accepted family distribution:  {0, 15, 0, 0, 0, 62}
+Attempted family distribution: {0, 5006, 0, 0, 0, 4994}
+Adjacency matrix elements and size: SparseArray[<526>, {77, 77}]

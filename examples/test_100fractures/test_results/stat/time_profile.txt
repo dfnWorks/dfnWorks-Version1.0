@@ -1,0 +1,13 @@
+17.0607   Create fractures
+2.83436   Find intersections
+97.991   Check single intersection
+13.3417   Check triple intersection
+0.004137   Construct disjoint sets
+1.58073   Read/write sparse matrix
+0.020509   Find fractures in the largest set
+0.010014   Construct A (adjacency matrix used in\
+ 
+>    generatingPoints`CreateIntersectionPoints)
+2.63292   Discretize intersections
+0.788862   Write output files
+Max memory used (bytes) before output: 36,901,728

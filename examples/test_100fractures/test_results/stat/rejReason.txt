@@ -1,0 +1,10 @@
+Accepted and not deformed:         6
+Accepted and truncated:            68
+Accepted and deformed:             4
+Outside rejections:                0
+Short intersections rejections:    68
+Close to edge rejections:          536
+Close to vertex rejections:        2
+Int. point close to edge rejections: 80
+Triple intersection rejections:    9236
+Not in the largest set rejections: 0
