@@ -1,0 +1,45 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage{setspace}
+\usepackage{framed}
+
+\title{DFN Statistics}
+%\author{Name}
+\begin{document}
+\maketitle 
+\begin{framed}
+\begin{center}
+\lstinputlisting{warnings.txt}
+\end{center}
+\end{framed}This file contains data regarding the results of the DFN generation process.
+
+\begingroup
+\def\addvspace#1{}
+\tableofcontents
+\endgroup
+
+\section{General Info}
+\lstinputlisting{report.txt}
+
+\section{Mesh Info}
+\lstinputlisting{finalmesh.txt}
+
+\section{Time Profile}
+\lstinputlisting{time_profile.txt}
+
+
+
+\section{Rejection Reasons}
+
+\lstinputlisting{rejReason.txt}
+
+
+\newpage
+\section{Mathematica Input File}
+\lstinputlisting{mathInput.m}
+
+\end{document}

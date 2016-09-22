@@ -1,0 +1,99 @@
+ 
+ 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+*               *                                             *                 
+*               *    Program:  LaGriT V3.103   Linux m64      *                 
+*               *    date_compile: 2015/03/15  RH gf4.5       *                 
+*               *    Run Time: 2016/May 26  17:32:19          *                 
+*               *    Manual:   http://lagrit.lanl.gov         *                 
+*               *                                             *                 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+ 
+                               -----oOo-----                                    
+                           LaGriT V3 LACC-2012-084                              
+LaGriT Copyright: This program was prepared by Los Alamos National Security, LLC
+at Los Alamos National Laboratory (LANL) under contract No. DE-AC52-06NA25396   
+with the U.S. Department of Energy (DOE). All rights in the program are reserved
+by the DOE and Los Alamos National Security, LLC. Permission is granted to the  
+public to copy and use this software without charge, provided that this Notice  
+and any statement of authorship are reproduced on all copies. Neither the       
+U.S. Government nor LANS makes any warranty, express or implied, or assumes     
+any liability or responsibility for the use of this software.                   
+                               -----oOo-----                                    
+ 
+ 
+Output log file: outx3dgen                                                      
+Command log file: logx3dgen                                                     
+ 
+ Enter a command
+read/avs/full_mesh.inp/mo1                                                      
+                    8                    1
+cmo/addatt/mo1/dfield/VDOUBLE/scalar/nnodes/linear/permanent/gxaf/0.0           
+finish                                                                          
+cmo/addatt/mo1/b_a/VINT/scalar/nnodes/linear/permanent/gxaf/0.0                 
+finish                                                                          
+cmo/addatt/mo1/numbnd/VINT/scalar/nnodes/linear/permanent/gxaf/0.0              
+finish                                                                          
+cmo/addatt/mo1/id_numb/VINT/scalar/nnodes/linear/permanent/gxaf/0.0             
+finish                                                                          
+cmo/addatt/mo1/evol_onen/VDOUBLE/scalar/nelements/linear/permanent/gxaf/0.0     
+finish                                                                          
+geniee                                                                          
+ geniee: mesh has                    60  jtet loops, max cycle length=          
+                                                                               4
+finish                                                                          
+cmo/status/brief                                                                
+ 
+The current-mesh-object(CMO) is: mo1                                            
+ 
+  1 Mesh Object name: mo1                                                       
+    number of nodes =           554        number of elements =         1063    
+    dimensions geometry =         3        element type =                tri    
+    dimensions topology =         2        3 nodes      3 faces      3 edges    
+    boundary flag =        16000000        status =                   active    
+ 
+ 
+finish                                                                          
+ Enter a command
+dump/pflotran/full_mesh/mo1/nofilter_zero                                       
+***Construct Regular Sparse Matrix:2D***                                        
+ io_type =                    12
+------------                                                                    
+Matbldtri                                                                       
+Number of Nodes             =        554                                        
+Max. Connection to a Node   =         14                                        
+Number of Area Coefficients =       3786                                        
+Minimum Voronoi area        =   3.9062500E-04                                   
+Maximum Voronoi area        =   5.0641251E-02                                   
+Minimum Voronoi edge length =   0.0000000E+00                                   
+Maximum Voronoi edge length =   2.5827418E+00                                   
+Total   Voronoi area        =   3.5456086E+00                                   
+Total   Triangle area       =   3.5456086E+00                                   
+ 
+Matbldtri  writing PFLOTRAN format.                                             
+PFLOTRAN total CELL nodes =          554                                        
+PFLOTRAN will not filter zero coefs.                                            
+PFLOTRAN coefficient from matbld Aij/Xij  max  =   2.5827418E+00                
+  -no filter astor                   299                  331   0.0000000000000000                      2013
+  -no filter astor                   331                  334  1.11022302462515679E-016                 2203
+  -no filter astor                   427                  459   0.0000000000000000                      2901
+  -no filter astor                   459                  462  1.11022302462515679E-016                 3091
+  -count nconn                 1616
+  -count nzero                    4
+  
+PFLOTRAN total matbld matrix coefficients   =      3786                         
+PFLOTRAN matrix  i>j (written)              =      1616                         
+PFLOTRAN matrix  i<=j (not written)        =       2170                         
+PFLOTRAN zero coefs < epsilon    (written)  =         4                         
+ 
+PFLOTRAN total CONNECTIONS written         =       1616                         
+PFLOTRAN coefficient  Aij min              =   0.0000000E+00                    
+PFLOTRAN coefficient  Aij max              =   2.6453696E-01                    
+ 
+*** SPARSE COEFFICIENT MATRIX for 2D SUCCESSFUL ***                             
+ 
+2D Matrix Coefficient file written with name full_mesh.uge                      
+ 
+ Enter a command
+finish                                                                          
+LaGriT successfully completed                                                   

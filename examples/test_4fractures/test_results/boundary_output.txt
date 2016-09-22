@@ -1,0 +1,112 @@
+ 
+ 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+*               *                                             *                 
+*               *    Program:  LaGriT V3.103   Linux m64      *                 
+*               *    date_compile: 2015/03/15  RH gf4.5       *                 
+*               *    Run Time: 2016/May 26  17:32:16          *                 
+*               *    Manual:   http://lagrit.lanl.gov         *                 
+*               *                                             *                 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+ 
+                               -----oOo-----                                    
+                           LaGriT V3 LACC-2012-084                              
+LaGriT Copyright: This program was prepared by Los Alamos National Security, LLC
+at Los Alamos National Laboratory (LANL) under contract No. DE-AC52-06NA25396   
+with the U.S. Department of Energy (DOE). All rights in the program are reserved
+by the DOE and Los Alamos National Security, LLC. Permission is granted to the  
+public to copy and use this software without charge, provided that this Notice  
+and any statement of authorship are reproduced on all copies. Neither the       
+U.S. Government nor LANS makes any warranty, express or implied, or assumes     
+any liability or responsibility for the use of this software.                   
+                               -----oOo-----                                    
+ 
+ 
+Output log file: outx3dgen                                                      
+Command log file: logx3dgen                                                     
+ 
+ Enter a command
+                                                                                
+read/gmv/full_mesh.gmv/mo                                                       
+Reading GMV binary file gmvinputieee                                            
+cmo/addatt/mo/dfield/VDOUBLE/scalar/nnodes/linear/permanent/gxa/0.0             
+finish                                                                          
+cmo/addatt/mo/b_a/VDOUBLE/scalar/nnodes/linear/permanent/gxa/0.0                
+finish                                                                          
+cmo/addatt/mo/evol_one/VDOUBLE/scalar/nelements/linear/permanent/gxa/0.0        
+finish                                                                          
+cmo/addatt/mo/numbnd/VDOUBLE/scalar/nnodes/linear/permanent/gxa/0.0             
+finish                                                                          
+cmo/addatt/mo/id_numb/VDOUBLE/scalar/nnodes/linear/permanent/gxa/0.0            
+finish                                                                          
+ no geometry for mesh object                                                    
+geniee                                                                          
+ geniee: mesh has                    60  jtet loops, max cycle length=          
+                                                                               4
+finish                                                                          
+Nodes:        554 Elements:       1063                                          
+Done reading GMV binary total bytes:     308200 file:  full_mesh.gmv            
+ 
+ Enter a command
+define/XMAX/8.999900e-01                                                        
+ Enter a command
+define/XMIN/-8.999900e-01                                                       
+ Enter a command
+define/YMAX/4.999900e-01                                                        
+ Enter a command
+define/YMIN/-4.999900e-01                                                       
+ Enter a command
+define/ZMAX/3.249900e-01                                                        
+ Enter a command
+define/ZMIN/-3.249900e-01                                                       
+ Enter a command
+                                                                                
+pset/top/attribute/zic/1,0,0/gt/ZMAX                                            
+ 
+ THE PSET  top  HAS         17 POINTS                                           
+ Enter a command
+pset/bottom/attribute/zic/1,0,0/lt/ZMIN                                         
+ 
+ THE PSET  bottom  HAS         17 POINTS                                        
+ Enter a command
+pset/left_w/attribute/xic/1,0,0/lt/XMIN                                         
+ 
+ THE PSET  left_w  HAS          5 POINTS                                        
+ Enter a command
+pset/front_s/attribute/yic/1,0,0/gt/YMAX                                        
+ 
+ THE PSET  front_s  HAS         35 POINTS                                       
+ Enter a command
+pset/right_e/attribute/xic/1,0,0/gt/XMAX                                        
+ 
+ THE PSET  right_e  HAS         10 POINTS                                       
+ Enter a command
+pset/back_n/attribute/yic/1,0,0/lt/YMIN                                         
+ 
+ THE PSET  back_n  HAS         36 POINTS                                        
+ Enter a command
+pset/-all-/zone/boundary/ascii                                                  
+PSET: THERE ARE  6 PSETS DEFINED                                                
+  top               bottom            left_w            front_s                 
+  right_e           back_n                                                      
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT -all-    1 PSETS TO FILE                                           
+                    5                    3 ascii                           
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT -all-    1 PSETS TO FILE                                           
+                    5                    3 ascii                           
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT -all-    1 PSETS TO FILE                                           
+                    5                    3 ascii                           
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT -all-    1 PSETS TO FILE                                           
+                    5                    3 ascii                           
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT -all-    1 PSETS TO FILE                                           
+                    5                    3 ascii                           
+PSET: Appended .zone to the file name                                           
+PSET: OUTPUT -all-    1 PSETS TO FILE                                           
+                    5                    3 ascii                           
+ Enter a command
+finish                                                                          
+LaGriT successfully completed                                                   

@@ -1,0 +1,3 @@
+WARNING: you've entered a value of {0.25, 0.25, 0.25, 0.25} for the variable famProb even though none was necessary becasue there are no 
+randomly generated fractures you specified in nShape. The program has
+automatically changed the value of famProb for you to famProb={};

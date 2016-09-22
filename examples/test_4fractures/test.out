@@ -1,0 +1,445 @@
+Running job
+test_results
+Creating output directories
+Thu May 26 17:32:09 MDT 2016
+Creating DFN
+Mathematica 8.0 for Linux x86 (64-bit)
+Copyright 1988-2011 Wolfram Research, Inc.
+
+In[1]:= 
+In[2]:= 
+In[3]:= 
+In[4]:= 
+In[5]:= 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Program: DFNWorks / DFNGen V1.0, Mathematica, Linux ~~~~~~~~~~~~~
+~~~~~~~~~~~~ April 1st, 2015.  LA-CC-14-091 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This program was prepared at Los Alamos National Laboratory (LANL),
+Earth and Environmental Sciences Division, Computational Earth 
+Science Group (EES-16), Subsurface Flow and Transport Team.
+ All rights in the program are reserved by the DOE and LANL.
+ Permission is granted to the public to copy and use this software 
+ without charge, provided that this Notice and any statement of 
+ authorship are reproduced on all copies. Neither the U.S. Government
+ nor LANS makes any warranty, express or implied, or assumes 
+ any liability or responsibility for the use of this software.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~Developers: Jeffrey D. Hyman, Scott L. Painter, Nataliia Makedonska,
+~~~~~~~~~~~~~~ Carl W. Gable, Satish Karra, Ahinoam Pollack, 
+~~~~~~~~~~~~~~ Quan M. Bui, Jeremy A. Harrod, T.-L. Hsein, Terry A. Miller
+ Last update Apr. 1st, 2015, by N. Makedonska (nataliia@lanl.gov)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+WARNING: you've entered a value of {0.25, 0.25, 0.25, 0.25} for the variable\
+ 
+>   famProb even though none was necessary becasue there are no 
+randomly generated fractures you specified in nShape. The program has
+automatically changed the value of famProb for you to famProb={};
+
+Number of fractures requested: 4
+
+Requested number of families for each shape: 0 families of ellipses;0
+
+ 
+>    families of rectangles;0 user defined ellipses;4 user defined rectangles;
+
+You have defined a user specified rectangle according to 
+			parameters.
+Accepted Cnt : 0 out of 1 attempted fractures.
+You have defined a user specified rectangle according to 
+			parameters.
+You have defined a user specified rectangle according to 
+			parameters.
+You have defined a user specified rectangle according to 
+			parameters.
+Successfully reached requested number of fractures.
+
+Part::partw: Part 1 of {} does not exist.
+
+Before isolated fractures removed:
+Total accepted fractures = 4
+Total accepted fracture surface area = 7.3
+Total accepted fracture volume = 0.0365
+
+After isolated fractures removed:
+Final fractures number: 4
+Final fractures total surface area (Total fracture Area * 2) = 7.3
+Final fractures total volume (Fractures Area *Fractures Aperture) = 0.0365
+Final fracture density (No of fractures per unit volume), P30 = 3.4188
+Final fracture intensity (Area of fractures per unit volume), P32 = 3.11966
+Final fracture porosity (Volume of fractures per unit volume), P33 = 0.0311966
+          4 fractures (accepted + rejected)
+Attempted 
+Number of accepted polygons: 4
+Writing out the number of CPUs to use in the meshing.
+Writing rejection reasons file: stat/rejReason.txt.
+Writing out intersection points into file: intersections.inp.
+Writing out polygon points into file: polys.inp.
+Writing out parameters into file: params.txt.
+Writing out lengths into file: length.dat.
+Writing out (bounding box + h) into file: bounding.inp.
+Writing out permeability into file: perm.dat.
+Writing out aperture into file: aperture.dat.
+Finished Network
+Writing time report file: stat/time_profile.txt.
+Writing general report file: stat/report.txt.
+Computing and writing statistics related files 
+DFN Generation is Done!
+Meshing proceeds
+Thu May 26 17:32:11 MDT 2016
+================================================================================
+Python Script to parse Mathematica output and mesh it using LaGriT 
+
+Last Update March 11 2015 by Jeffrey Hyman
+EES - 16, LANL
+jhyman@lanl.gov
+
+Reading in file: params.txt
+Number of CPU's to use: 2
+
+Parse Params.txt: Starting
+Number of Polygons: 4
+H_SCALE 0.1
+Number of Points per polygon 5
+Polygon File: polys.inp
+Intersection File: intersections.inp
+Parse Params.txt: Complete
+
+Splitting the Intersection File: intersections.inp
+Thu May 26 17:32:17 MDT 2016
+splitting the intersection file: complete
+
+Splitting the Polys File: polys.inp
+Splitting the Polys File: Complete
+
+Creating parameteri.mlgi files
+Creating parameteri.mlgi files: Complete
+
+Writing LaGriT Control Files
+Writing LaGriT Control Files: Complete
+
+Triangulate Polygons: 4
+Job 1 PID[6906] of 4 started 0 finished
+Job 2 PID[6915] of 4 started 0 finished
+Job 3 PID[6930] of 4 started 2 finished PID[6915]
+Job 4 PID[6946] of 4 started 1 finished PID[6906]
+Job 4 PID[xxxxx] of 4 started 3 finished PID[6930]
+Job 4 PID[xxxxx] of 4 started 4 finished PID[6946]
+Main process exiting.
+Triangulating Polygons: Complete
+Writing : merge_poly.lgi
+
+Merging triangulated polygon meshes
+Merging part  1  of  2
+Merging part  2  of  2
+Process 1 finished
+Process 2 finished
+Merging triangulated polygon meshes: Complete
+
+Output files for FEHM calculations are written in :
+   full_mesh.gmv
+   full_mesh.inp
+   tri_fracture.stor
+================================================================================
+Statistical summary of generated DFN is in stat.pdf file.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~ Program: DFNWorks / DFNFlow lead by PFLOTRAN ~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Following python scripts will run to prepare ~~~~~~~~~
+~~~~~~ input data for PFLOTRAN running ~~~~~~~~~~~~~~~~~~~
+~~ Developers: Satish Karra, Nataliia Makedonska ~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--> Writing pflotran uge file from lagrit
+--> Reading *.inp file
+--> Calling Lagrit
+--> Finished reading material id
+--> Finished writing material ids to file
+--> Beginning writing to HDF5 file
+--> Allocating cell index array
+--> Writing cell indices
+--> Allocating permeability array
+--> reading permeability data
+--> Note: this script assumes isotropic permeability
+--> Done writing permeability to h5 file
+--> reading aperture data
+--> Creating a new uge file with correct volumes and areas
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_back_n.ex" corresponding to the zone file: pboundary_back_n.zone
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_front_s.ex" corresponding to the zone file: pboundary_front_s.zone
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_left_w.ex" corresponding to the zone file: pboundary_left_w.zone
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_right_e.ex" corresponding to the zone file: pboundary_right_e.zone
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_top.ex" corresponding to the zone file: pboundary_top.zone
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_bottom.ex" corresponding to the zone file: pboundary_bottom.zone
+--> Reading inp data
+--> Writing inp data to vtk format
+Make sure you use proper input file for PFLOTRAN!!!
+------------------------------ Provenance --------------------------------------
+pflotran_compile_date_time = unknown
+pflotran_compile_user = unknown
+pflotran_compile_hostname = unknown
+pflotran_changeset = unknown
+pflotran_status = unknown
+petsc_changeset = unknown
+petsc_status = unknown
+--------------------------------------------------------------------------------
+ pflotran card:: DFN
+ pflotran card:: GRID
+ pflotran card:: PRINT_PRIMAL_GRID
+ pflotran card:: FLUID_PROPERTY
+ pflotran card:: DATASET
+ pflotran card:: MATERIAL_PROPERTY
+ pflotran card:: CHARACTERISTIC_CURVES
+ pflotran card:: OUTPUT
+ pflotran card:: TIME
+ pflotran card:: REGION
+ All
+ pflotran card:: REGION
+ inflow
+ pflotran card:: REGION
+ outflow
+ pflotran card:: FLOW_CONDITION
+ initial
+ "PRESSURE UNITS" set to default value.
+ WARNING: "iphase" not set in condition; set to 1
+ pflotran card:: FLOW_CONDITION
+ outflow
+ "PRESSURE UNITS" set to default value.
+ WARNING: "iphase" not set in condition; set to 1
+ pflotran card:: FLOW_CONDITION
+ inflow
+ "PRESSURE UNITS" set to default value.
+ WARNING: "iphase" not set in condition; set to 1
+ pflotran card:: INITIAL_CONDITION
+ "Initial Condition name" set to default value.
+ pflotran card:: BOUNDARY_CONDITION
+ pflotran card:: BOUNDARY_CONDITION
+ pflotran card:: STRATA
+ pflotran card:: END_SUBSURFACE
+ Testing group: Permeability
+ Group "Permeability" in HDF5 file "dfn_properties.h5" not found in file.  Therefore, assuming a cell-indexed dataset.
+ Opening hdf5 file: dfn_properties.h5
+ Setting up grid cell indices
+ Reading dataset: Cell Ids
+   0.01 Seconds to set up indices
+ Reading dataset: Permeability
+   0.08 Seconds to read real array
+ Closing hdf5 file: dfn_properties.h5
+ Default HDF5 method is used in Initialization
+   Beginning setup of FLOW SNES
+ number of dofs =   1, number of phases =   1
+ mode = Richards: p
+ Solver: bcgs
+ Preconditioner: bjacobi
+   Finished setting up FLOW SNES
+
+FLOW Time Stepper
+max steps: 999999
+max constant cumulative time steps: 5
+max cuts: 16
+
+FLOW Newton Solver
+        atol:  1.0000E-50
+        rtol:  1.0000E-08
+        stol:  1.0000E-08
+        dtol: -2.0000E+00
+     maxnorm:  1.0000E+20
+   inftolres: -9.9900E+02
+   inftolupd: -9.9900E+02
+inftolrelupd: -9.9900E+02
+inftolsclres: -9.9900E+02
+    max iter:    50
+    min iter:     1
+        maxf: 10000
+
+matrix type:baij                
+precond. matrix type:baij                
+inexact newton: off
+print convergence: on
+print detailed convergence: off
+check infinity norm: on
+
+FLOW Linear Solver
+   solver:  bcgs
+  precond:  bjacobi
+     atol:  1.0000E-50
+     rtol:  1.0000E-05
+     dtol:  1.0000E+04
+ max iter:  10000
+ --> write rate output file: dfn_explicit-darcyvel-000
+       0.01 Seconds to write to Rates file.
+ --> write vtk output file: dfn_explicit-000.vtk
+ max_local_size_saved:          279
+       0.00 Seconds to write to VTK file(s)
+ 
+   Finished Initialization
+
+== RICHARDS FLOW ===============================================================
+  0 2r: 3.43E+17 2x: 0.00E+00 2u: 0.00E+00 ir: 1.53E+17 iu: 0.00E+00 rsn:   0
+  1 2r: 6.19E+09 2x: 3.15E+07 2u: 8.11E+06 ir: 1.96E+09 iu: 9.87E+05 rsn:   0
+  2 2r: 7.51E-06 2x: 3.15E+07 2u: 1.50E+03 ir: 3.57E-06 iu: 8.69E+01 rsn: rtol
+ 
+  --> SNES Linear/Non-Linear Iterations =           37  /            2
+ --> SNES Residual:   7.514612E-06  0.000000E+00  3.571457E-06
+ 
+  --> max chng: dpmx=   9.8675E+05
+ 
+ --> write rate output file: dfn_explicit-darcyvel-001
+       0.01 Seconds to write to Rates file.
+ --> write vtk output file: dfn_explicit-001.vtk
+       0.00 Seconds to write to VTK file(s)
+
+FLOW TS BE steps =      1 newton =        2 linear =         37 cuts =      0
+FLOW TS BE Wasted Linear Iterations = 0
+FLOW TS BE SNES time = 0.0 seconds
+
+ Wall Clock Time:  2.3416E-01 [sec]   3.9027E-03 [min]   6.5045E-05 [hr]
+--> Reading inp data
+--> Writing inp data to vtk format
+Make sure you use proper input file for Transport!!!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Program: DFNWorks / DFNTrans V1.0, C code, Linux ~~~~~~~~~~~~~
+~~~~~~~~~~~~ April 1st, 2015.  LA-CC-14-091 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ This program was prepared at Los Alamos National Laboratory (LANL),
+ Earth and Environmental Sciences Division, Computational Earth 
+ Science Group (EES-16), Subsurface Flow and Transport Team.
+ All rights in the program are reserved by the DOE and LANL.
+ Permission is granted to the public to copy and use this software 
+ without charge, provided that this Notice and any statement of 
+ authorship are reproduced on all copies. Neither the U.S. Government 
+ nor LANS makes any warranty, express or implied, or assumes 
+ any liability or responsibility for the use of this software.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~Developers: Nataliia Makedonska, Scott L. Painter, Carl W. Gable
+ Last update Apr. 1st, 2015, by N. Makedonska (nataliia@lanl.gov)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ PROGRAM STARTS. current time: Thu May 26 17:32:22 2016
+
+ 
+ Particles velocities are calculated in [m/seconds]. 
+
+ All output files will be written in PTresults/ 
+---------------------GRID DATA READING--------------------------
+
+ OPEN AND READ FILE: params.txt 
+ 
+ Number of fractures in the domain = 4 
+
+ OPEN AND READ AVS FILE: full_mesh.inp 
+ 
+ Total number of nodes: 554, Total number of elements (triangles): 1063
+
+ OPEN AND READ STOR FILE: tri_fracture.stor
+ 
+ Total number of edges in Voronoy polygons = 3786, total number of nodes = 554 
+
+ Memory allocation is done successfully 
+
+ OPEN AND READ FILE: full_mesh.inp 
+ 
+ OPEN AND READ FILE: tri_fracture.stor 
+ 
+
+----------------FLOW SOLUTION DATA READING--------------------
+
+ PFLOTRAN: OPEN AND READ FILE full_mesh_vol_area.uge to read area coefficients. 
+ 
+
+ There is no aperture file is defined. All fractures will have constant aperture = 1.0 [m]. 
+
+ PFLOTRAN: OPEN AND READ FILE: darcyvel.dat 
+ 
+
+ PFLOTRAN: OPEN AND READ FILE: cellinfo.dat 
+ 
+ Reading pressure 
+ MAX pressure 2.00000000e+00 [MPa]; MIN pressure 1.00000000e+00 [MPa] 
+
+ There is no aperture file is defined. All fractures will have constant aperture = 1.0 [m]. 
+
+ Data Reading is Done
+
+---------------------BOUNDARY CONDITIONS----------------------
+
+ OPEN AND READ FILE: allboundaries.zone 
+ 
+ Read the number and indices of nodes defined in flow in and flow out zones  
+
+ Number of nodes 5 in flow-in zone.  
+
+ Number of nodes 10 in flow-out  zone.  
+  GRID CHECK starts 
+  GRID CHECK is done 
+ 
+ Converting 3d nodes coordinates to 2d xy parallel plane 
+
+----------------VELOCITY RECONSTRUCTION-----------------------
+
+ Darcy's velocities reconstruction 
+ Velocities on nodes are calculated 
+
+ Output flow field: Darcy velocities on nodes in 3D 
+
+------------------PARTICLE TRACKING---------------------------
+ 1 fracture(s) in in-flow boundary zone 
+
+  Particles placed on 0.010000 [m]  from each other  
+
+  2000000 time steps in the current run 
+
+  Initial number of particles being placed: 100 
+
+  Number of particles that went out through flow-out boundary: 100 
+
+ PROGRAM ENDS. current time: Thu May 26 17:32:22 2016
+
+Job complete
+test_results
+Thu May 26 17:32:22 MDT 2016

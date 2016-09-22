@@ -1,0 +1,177 @@
+ 
+ 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+*               *                                             *                 
+*               *    Program:  LaGriT V3.103   Linux m64      *                 
+*               *    date_compile: 2015/03/15  RH gf4.5       *                 
+*               *    Run Time: 2016/May 26  17:32:19          *                 
+*               *    Manual:   http://lagrit.lanl.gov         *                 
+*               *                                             *                 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+ 
+                               -----oOo-----                                    
+                           LaGriT V3 LACC-2012-084                              
+LaGriT Copyright: This program was prepared by Los Alamos National Security, LLC
+at Los Alamos National Laboratory (LANL) under contract No. DE-AC52-06NA25396   
+with the U.S. Department of Energy (DOE). All rights in the program are reserved
+by the DOE and Los Alamos National Security, LLC. Permission is granted to the  
+public to copy and use this software without charge, provided that this Notice  
+and any statement of authorship are reproduced on all copies. Neither the       
+U.S. Government nor LANS makes any warranty, express or implied, or assumes     
+any liability or responsibility for the use of this software.                   
+                               -----oOo-----                                    
+ 
+ 
+Output log file: outx3dgen                                                      
+Command log file: logx3dgen                                                     
+ 
+ Enter a command
+read/avs/full_mesh.inp/mo                                                       
+                    8                    1
+cmo/addatt/mo/dfield/VDOUBLE/scalar/nnodes/linear/permanent/gxaf/0.0            
+finish                                                                          
+cmo/addatt/mo/b_a/VINT/scalar/nnodes/linear/permanent/gxaf/0.0                  
+finish                                                                          
+cmo/addatt/mo/numbnd/VINT/scalar/nnodes/linear/permanent/gxaf/0.0               
+finish                                                                          
+cmo/addatt/mo/id_numb/VINT/scalar/nnodes/linear/permanent/gxaf/0.0              
+finish                                                                          
+cmo/addatt/mo/evol_onen/VDOUBLE/scalar/nelements/linear/permanent/gxaf/0.0      
+finish                                                                          
+geniee                                                                          
+ geniee: mesh has                    60  jtet loops, max cycle length=          
+                                                                               4
+finish                                                                          
+cmo/status/brief                                                                
+ 
+The current-mesh-object(CMO) is: mo                                             
+ 
+  1 Mesh Object name: mo                                                        
+    number of nodes =           554        number of elements =         1063    
+    dimensions geometry =         3        element type =                tri    
+    dimensions topology =         2        3 nodes      3 faces      3 edges    
+    boundary flag =        16000000        status =                   active    
+ 
+ 
+finish                                                                          
+ Enter a command
+cmo/modatt/mo/isn/ioflag/l                                                      
+ Enter a command
+cmo/modatt/mo/x_four/ioflag/l                                                   
+CMO_MODATT error: attribute does not exist:                                     
+mo                              x_four                                          
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/x_four/ioflag/l                                
+ Enter a command
+cmo/modatt/mo/fac_n/ioflag/l                                                    
+CMO_MODATT error: attribute does not exist:                                     
+mo                              fac_n                                           
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/fac_n/ioflag/l                                 
+ Enter a command
+cmo/modatt/mo/dfield/ioflag/l                                                   
+ Enter a command
+cmo/modatt/mo/rf_field/ioflag/l                                                 
+CMO_MODATT error: attribute does not exist:                                     
+mo                              rf_field                                        
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/rf_field/ioflag/l                              
+ Enter a command
+cmo/modatt/mo/a_b/ioflag/l                                                      
+CMO_MODATT error: attribute does not exist:                                     
+mo                              a_b                                             
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/a_b/ioflag/l                                   
+ Enter a command
+cmo/modatt/mo/b_a/ioflag/l                                                      
+ Enter a command
+cmo/modatt/mo/xnorm/ioflag/l                                                    
+CMO_MODATT error: attribute does not exist:                                     
+mo                              xnorm                                           
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/xnorm/ioflag/l                                 
+ Enter a command
+cmo/modatt/mo/ynorm/ioflag/l                                                    
+CMO_MODATT error: attribute does not exist:                                     
+mo                              ynorm                                           
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/ynorm/ioflag/l                                 
+ Enter a command
+cmo/modatt/mo/znorm/ioflag/l                                                    
+CMO_MODATT error: attribute does not exist:                                     
+mo                              znorm                                           
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/znorm/ioflag/l                                 
+ Enter a command
+cmo/modatt/mo/evol_one/ioflag/l                                                 
+CMO_MODATT error: attribute does not exist:                                     
+mo                              evol_one                                        
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/evol_one/ioflag/l                              
+ Enter a command
+cmo/modatt/mo/evol_all/ioflag/l                                                 
+CMO_MODATT error: attribute does not exist:                                     
+mo                              evol_all                                        
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/evol_all/ioflag/l                              
+ Enter a command
+cmo/modatt/mo/numbnd/ioflag/l                                                   
+ Enter a command
+cmo/modatt/mo/id_numb/ioflag/l                                                  
+ Enter a command
+cmo/modatt/mo/evol_all/ioflag/l                                                 
+CMO_MODATT error: attribute does not exist:                                     
+mo                              evol_all                                        
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/evol_all/ioflag/l                              
+ Enter a command
+cmo/modatt/mo/itp/ioflag/l                                                      
+ Enter a command
+cmo/modatt/mo/icr/ioflag/l                                                      
+ Enter a command
+cmo/modatt/mo/meshid/ioflag/l                                                   
+CMO_MODATT error: attribute does not exist:                                     
+mo                              meshid                                          
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/meshid/ioflag/l                                
+ Enter a command
+cmo/modatt/mo/id_n_1/ioflag/l                                                   
+CMO_MODATT error: attribute does not exist:                                     
+mo                              id_n_1                                          
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/id_n_1/ioflag/l                                
+ Enter a command
+cmo/modatt/mo/id_n_2/ioflag/l                                                   
+CMO_MODATT error: attribute does not exist:                                     
+mo                              id_n_2                                          
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/id_n_2/ioflag/l                                
+ Enter a command
+cmo/modatt/mo/pt_gtg/ioflag/l                                                   
+CMO_MODATT error: attribute does not exist:                                     
+mo                              pt_gtg                                          
+ ERROR CMO: modatt  mo     -1                                                   
+ 
+error in command : cmo/modatt/mo/pt_gtg/ioflag/l                                
+ Enter a command
+dump/materialid.inp/mo                                                          
+dump/avs/materialid.inp/mo                                                      
+cmo/modatt/-def-/-def-/ioflag/x                                                 
+finish                                                                          
+finish                                                                          
+ Enter a command
+finish                                                                          
+LaGriT successfully completed                                                   

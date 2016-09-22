@@ -1,0 +1,8 @@
+Total Accepted Fractures: 4
+Total Surface Area(m^2): 7.3
+Total Fracture Volume(m^3): 0.0365
+Domain Volume(m^3): 1.17
+Fracture Volume / Domain Volume: 0.0311966
+Surface Area / Domain Volume: 6.23932
+Number of Fractures / Domain Volume: 3.4188
+
