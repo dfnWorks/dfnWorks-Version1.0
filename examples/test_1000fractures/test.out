@@ -1,0 +1,2173 @@
+Running job
+test_results
+Creating output directories
+Thu May 26 17:40:06 MDT 2016
+Creating DFN
+Mathematica 8.0 for Linux x86 (64-bit)
+Copyright 1988-2011 Wolfram Research, Inc.
+
+In[1]:= 
+In[2]:= 
+In[3]:= 
+In[4]:= 
+In[5]:= 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Program: DFNWorks / DFNGen V1.0, Mathematica, Linux ~~~~~~~~~~~~~
+~~~~~~~~~~~~ April 1st, 2015.  LA-CC-14-091 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This program was prepared at Los Alamos National Laboratory (LANL),
+Earth and Environmental Sciences Division, Computational Earth 
+Science Group (EES-16), Subsurface Flow and Transport Team.
+ All rights in the program are reserved by the DOE and LANL.
+ Permission is granted to the public to copy and use this software 
+ without charge, provided that this Notice and any statement of 
+ authorship are reproduced on all copies. Neither the U.S. Government
+ nor LANS makes any warranty, express or implied, or assumes 
+ any liability or responsibility for the use of this software.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~Developers: Jeffrey D. Hyman, Scott L. Painter, Nataliia Makedonska,
+~~~~~~~~~~~~~~ Carl W. Gable, Satish Karra, Ahinoam Pollack, 
+~~~~~~~~~~~~~~ Quan M. Bui, Jeremy A. Harrod, T.-L. Hsein, Terry A. Miller
+ Last update Apr. 1st, 2015, by N. Makedonska (nataliia@lanl.gov)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Number of fractures requested: 7700
+
+Requested number of families for each shape: 3 families of ellipses;0
+
+ 
+>    families of rectangles;0 user defined ellipses;0 user defined rectangles;
+
+ Power Law Size Distribution for ellipses of family # 1
+ Power Law Size Distribution for ellipses of family # 2
+ Power Law Size Distribution for ellipses of family # 3
+Accepted Cnt : 0 out of 1 attempted fractures.
+Accepted Cnt : 100 out of 118 attempted fractures.
+Accepted Cnt : 200 out of 241 attempted fractures.
+Accepted Cnt : 300 out of 362 attempted fractures.
+Accepted Cnt : 400 out of 489 attempted fractures.
+Accepted Cnt : 500 out of 604 attempted fractures.
+Accepted Cnt : 600 out of 720 attempted fractures.
+Accepted Cnt : 700 out of 851 attempted fractures.
+Accepted Cnt : 800 out of 990 attempted fractures.
+Accepted Cnt : 900 out of 1118 attempted fractures.
+Accepted Cnt : 1000 out of 1245 attempted fractures.
+Accepted Cnt : 1100 out of 1374 attempted fractures.
+Accepted Cnt : 1200 out of 1491 attempted fractures.
+Accepted Cnt : 1300 out of 1613 attempted fractures.
+Accepted Cnt : 1400 out of 1740 attempted fractures.
+Accepted Cnt : 1500 out of 1859 attempted fractures.
+Accepted Cnt : 1600 out of 1988 attempted fractures.
+Accepted Cnt : 1700 out of 2111 attempted fractures.
+Accepted Cnt : 1800 out of 2238 attempted fractures.
+Accepted Cnt : 1900 out of 2373 attempted fractures.
+Accepted Cnt : 2000 out of 2500 attempted fractures.
+Accepted Cnt : 2100 out of 2634 attempted fractures.
+Accepted Cnt : 2200 out of 2769 attempted fractures.
+Accepted Cnt : 2300 out of 2898 attempted fractures.
+Accepted Cnt : 2400 out of 3028 attempted fractures.
+Accepted Cnt : 2500 out of 3152 attempted fractures.
+Accepted Cnt : 2600 out of 3277 attempted fractures.
+Accepted Cnt : 2700 out of 3427 attempted fractures.
+Accepted Cnt : 2800 out of 3554 attempted fractures.
+Accepted Cnt : 2900 out of 3680 attempted fractures.
+Accepted Cnt : 3000 out of 3816 attempted fractures.
+Accepted Cnt : 3100 out of 3943 attempted fractures.
+Accepted Cnt : 3200 out of 4071 attempted fractures.
+Accepted Cnt : 3300 out of 4194 attempted fractures.
+Accepted Cnt : 3400 out of 4327 attempted fractures.
+Accepted Cnt : 3500 out of 4459 attempted fractures.
+Accepted Cnt : 3600 out of 4599 attempted fractures.
+Accepted Cnt : 3700 out of 4727 attempted fractures.
+Accepted Cnt : 3800 out of 4864 attempted fractures.
+Accepted Cnt : 3900 out of 5214 attempted fractures.
+Accepted Cnt : 4000 out of 5605 attempted fractures.
+Accepted Cnt : 4100 out of 6047 attempted fractures.
+Accepted Cnt : 4200 out of 6503 attempted fractures.
+Accepted Cnt : 4300 out of 6879 attempted fractures.
+Accepted Cnt : 4400 out of 7245 attempted fractures.
+Accepted Cnt : 4500 out of 7598 attempted fractures.
+Accepted Cnt : 4600 out of 8031 attempted fractures.
+Accepted Cnt : 4700 out of 8455 attempted fractures.
+Accepted Cnt : 4800 out of 8863 attempted fractures.
+Accepted Cnt : 4900 out of 9267 attempted fractures.
+Accepted Cnt : 5000 out of 9676 attempted fractures.
+Accepted Cnt : 5100 out of 9990 attempted fractures.
+Accepted Cnt : 5200 out of 10408 attempted fractures.
+Accepted Cnt : 5300 out of 10769 attempted fractures.
+Accepted Cnt : 5400 out of 11105 attempted fractures.
+Accepted Cnt : 5500 out of 11497 attempted fractures.
+Accepted Cnt : 5600 out of 11880 attempted fractures.
+Accepted Cnt : 5700 out of 12258 attempted fractures.
+Accepted Cnt : 5800 out of 12707 attempted fractures.
+Accepted Cnt : 5900 out of 13075 attempted fractures.
+Accepted Cnt : 6000 out of 13503 attempted fractures.
+Accepted Cnt : 6100 out of 13916 attempted fractures.
+Accepted Cnt : 6200 out of 14306 attempted fractures.
+Accepted Cnt : 6300 out of 14749 attempted fractures.
+Accepted Cnt : 6400 out of 15107 attempted fractures.
+Accepted Cnt : 6500 out of 15511 attempted fractures.
+Accepted Cnt : 6600 out of 15898 attempted fractures.
+Accepted Cnt : 6700 out of 16264 attempted fractures.
+Accepted Cnt : 6800 out of 16643 attempted fractures.
+Accepted Cnt : 6900 out of 17024 attempted fractures.
+Accepted Cnt : 7000 out of 17351 attempted fractures.
+Accepted Cnt : 7100 out of 17781 attempted fractures.
+Accepted Cnt : 7200 out of 18225 attempted fractures.
+Accepted Cnt : 7300 out of 18624 attempted fractures.
+Accepted Cnt : 7400 out of 19013 attempted fractures.
+Accepted Cnt : 7500 out of 19492 attempted fractures.
+Accepted Cnt : 7600 out of 19908 attempted fractures.
+Successfully reached requested number of fractures.
+
+Before isolated fractures removed:
+Total accepted fractures = 7700
+                                                 7
+Total accepted fracture surface area = 4.32659 10
+Total accepted fracture volume = 376.549
+
+After isolated fractures removed:
+Final fractures number: 1638
+                                                                        7
+Final fractures total surface area (Total fracture Area * 2) = 2.1894 10
+Final fractures total volume (Fractures Area *Fractures Aperture) = 225.531
+                                                                        -6
+Final fracture density (No of fractures per unit volume), P30 = 1.638 10
+Final fracture intensity (Area of fractures per unit volume), P32 = 0.010947
+Final fracture porosity (Volume of fractures per unit volume), P33 = 
+ 
+              -7
+>   2.25531 10
+          20570 fractures (accepted + rejected)
+Attempted 
+Number of accepted polygons: 1638
+Writing out the number of CPUs to use in the meshing.
+Writing rejection reasons file: stat/rejReason.txt.
+Writing out intersection points into file: intersections.inp.
+Writing out polygon points into file: polys.inp.
+Writing out parameters into file: params.txt.
+Writing out lengths into file: length.dat.
+Writing out (bounding box + h) into file: bounding.inp.
+Writing out permeability into file: perm.dat.
+Writing out aperture into file: aperture.dat.
+Finished Network
+Writing time report file: stat/time_profile.txt.
+Writing general report file: stat/report.txt.
+Computing and writing statistics related files 
+DFN Generation is Done!
+Meshing proceeds
+Thu May 26 17:59:35 MDT 2016
+================================================================================
+Python Script to parse Mathematica output and mesh it using LaGriT 
+
+Last Update March 11 2015 by Jeffrey Hyman
+EES - 16, LANL
+jhyman@lanl.gov
+
+Reading in file: params.txt
+Number of CPU's to use: 10
+
+Parse Params.txt: Starting
+Number of Polygons: 1638
+H_SCALE 1.5
+Number of Points per polygon 15
+Polygon File: polys.inp
+Intersection File: intersections.inp
+Parse Params.txt: Complete
+
+Splitting the Intersection File: intersections.inp
+splitting the intersection file: complete
+
+Splitting the Polys File: polys.inp
+Splitting file number 1000
+Splitting the Polys File: Complete
+
+Creating parameteri.mlgi files
+Creating parameteri.mlgi files: Complete
+
+Writing LaGriT Control Files
+Writing LaGriT Control Files: Complete
+
+Triangulate Polygons: 1638
+Job 1 PID[23159] of 1638 started 0 finished
+Job 2 PID[23168] of 1638 started 0 finished
+Job 3 PID[23176] of 1638 started 0 finished
+Job 4 PID[23186] of 1638 started 0 finished
+Job 5 PID[23195] of 1638 started 0 finished
+Job 6 PID[23204] of 1638 started 0 finished
+Job 7 PID[23213] of 1638 started 0 finished
+Job 8 PID[23222] of 1638 started 0 finished
+Job 9 PID[23231] of 1638 started 0 finished
+Job 10 PID[23239] of 1638 started 0 finished
+Job 11 PID[23307] of 1638 started 10 finished PID[23239]
+Job 12 PID[23327] of 1638 started 6 finished PID[23204]
+Job 13 PID[23350] of 1638 started 9 finished PID[23231]
+Job 14 PID[23366] of 1638 started 3 finished PID[23176]
+Job 15 PID[23382] of 1638 started 13 finished PID[23350]
+Job 16 PID[23397] of 1638 started 11 finished PID[23307]
+Job 17 PID[23412] of 1638 started 5 finished PID[23195]
+Job 18 PID[23428] of 1638 started 14 finished PID[23366]
+Job 19 PID[23443] of 1638 started 16 finished PID[23397]
+Job 20 PID[23458] of 1638 started 8 finished PID[23222]
+Job 21 PID[23473] of 1638 started 12 finished PID[23327]
+Job 22 PID[23488] of 1638 started 4 finished PID[23186]
+Job 23 PID[23514] of 1638 started 19 finished PID[23443]
+Job 24 PID[23530] of 1638 started 21 finished PID[23473]
+Job 25 PID[23549] of 1638 started 18 finished PID[23428]
+Job 26 PID[23564] of 1638 started 22 finished PID[23488]
+Job 27 PID[23579] of 1638 started 15 finished PID[23382]
+Job 28 PID[23595] of 1638 started 17 finished PID[23412]
+Job 29 PID[23611] of 1638 started 20 finished PID[23458]
+Job 30 PID[23717] of 1638 started 23 finished PID[23514]
+Job 31 PID[23743] of 1638 started 27 finished PID[23579]
+Job 32 PID[23760] of 1638 started 25 finished PID[23549]
+Job 33 PID[23775] of 1638 started 24 finished PID[23530]
+Job 34 PID[23790] of 1638 started 29 finished PID[23611]
+Job 35 PID[23805] of 1638 started 28 finished PID[23595]
+Job 36 PID[23828] of 1638 started 26 finished PID[23564]
+Job 37 PID[23843] of 1638 started 31 finished PID[23743]
+Job 38 PID[23858] of 1638 started 30 finished PID[23717]
+Job 39 PID[23873] of 1638 started 32 finished PID[23760]
+Job 40 PID[23888] of 1638 started 33 finished PID[23775]
+Job 41 PID[23903] of 1638 started 1 finished PID[23159]
+Job 42 PID[23918] of 1638 started 34 finished PID[23790]
+Job 43 PID[23934] of 1638 started 35 finished PID[23805]
+Job 44 PID[23949] of 1638 started 36 finished PID[23828]
+Job 45 PID[23964] of 1638 started 38 finished PID[23858]
+Job 46 PID[23979] of 1638 started 37 finished PID[23843]
+Job 47 PID[23995] of 1638 started 40 finished PID[23888]
+Job 48 PID[24010] of 1638 started 39 finished PID[23873]
+Job 49 PID[24025] of 1638 started 41 finished PID[23903]
+Job 50 PID[24040] of 1638 started 42 finished PID[23918]
+Job 51 PID[24055] of 1638 started 45 finished PID[23964]
+Job 52 PID[24071] of 1638 started 43 finished PID[23934]
+Job 53 PID[24086] of 1638 started 44 finished PID[23949]
+Job 54 PID[24101] of 1638 started 49 finished PID[24025]
+Job 55 PID[24116] of 1638 started 52 finished PID[24071]
+Job 56 PID[24131] of 1638 started 51 finished PID[24055]
+Job 57 PID[24146] of 1638 started 47 finished PID[23995]
+Job 58 PID[24161] of 1638 started 50 finished PID[24040]
+Job 59 PID[24177] of 1638 started 46 finished PID[23979]
+Job 60 PID[24192] of 1638 started 53 finished PID[24086]
+Job 61 PID[24213] of 1638 started 48 finished PID[24010]
+Job 62 PID[24228] of 1638 started 54 finished PID[24101]
+Job 63 PID[24243] of 1638 started 58 finished PID[24161]
+Job 64 PID[24258] of 1638 started 55 finished PID[24116]
+Job 65 PID[24273] of 1638 started 57 finished PID[24146]
+Job 66 PID[24288] of 1638 started 62 finished PID[24228]
+Job 67 PID[24303] of 1638 started 56 finished PID[24131]
+Job 68 PID[24318] of 1638 started 60 finished PID[24192]
+Job 69 PID[24333] of 1638 started 59 finished PID[24177]
+Job 70 PID[24348] of 1638 started 61 finished PID[24213]
+Job 71 PID[24363] of 1638 started 67 finished PID[24303]
+Job 72 PID[24378] of 1638 started 63 finished PID[24243]
+Job 73 PID[24393] of 1638 started 69 finished PID[24333]
+Job 74 PID[24408] of 1638 started 68 finished PID[24318]
+Job 75 PID[24424] of 1638 started 65 finished PID[24273]
+Job 76 PID[24439] of 1638 started 64 finished PID[24258]
+Job 77 PID[24454] of 1638 started 70 finished PID[24348]
+Job 78 PID[24469] of 1638 started 71 finished PID[24363]
+Job 79 PID[24484] of 1638 started 73 finished PID[24393]
+Job 80 PID[24499] of 1638 started 66 finished PID[24288]
+Job 81 PID[24514] of 1638 started 72 finished PID[24378]
+Job 82 PID[24529] of 1638 started 74 finished PID[24408]
+Job 83 PID[24544] of 1638 started 75 finished PID[24424]
+Job 84 PID[24559] of 1638 started 77 finished PID[24454]
+Job 85 PID[24574] of 1638 started 78 finished PID[24469]
+Job 86 PID[24589] of 1638 started 80 finished PID[24499]
+Job 87 PID[24604] of 1638 started 81 finished PID[24514]
+Job 88 PID[24619] of 1638 started 82 finished PID[24529]
+Job 89 PID[24640] of 1638 started 79 finished PID[24484]
+Job 90 PID[24657] of 1638 started 84 finished PID[24559]
+Job 91 PID[24672] of 1638 started 83 finished PID[24544]
+Job 92 PID[24688] of 1638 started 85 finished PID[24574]
+Job 93 PID[24703] of 1638 started 76 finished PID[24439]
+Job 94 PID[24718] of 1638 started 88 finished PID[24619]
+Job 95 PID[24733] of 1638 started 87 finished PID[24604]
+Job 96 PID[24748] of 1638 started 89 finished PID[24640]
+Job 97 PID[24766] of 1638 started 86 finished PID[24589]
+Job 98 PID[24781] of 1638 started 90 finished PID[24657]
+Job 99 PID[24796] of 1638 started 92 finished PID[24688]
+Job 100 PID[24811] of 1638 started 91 finished PID[24672]
+Job 101 PID[24826] of 1638 started 94 finished PID[24718]
+Job 102 PID[24841] of 1638 started 96 finished PID[24748]
+Job 103 PID[24856] of 1638 started 95 finished PID[24733]
+Job 104 PID[24871] of 1638 started 97 finished PID[24766]
+Job 105 PID[24886] of 1638 started 98 finished PID[24781]
+Job 106 PID[24901] of 1638 started 99 finished PID[24796]
+Job 107 PID[24916] of 1638 started 93 finished PID[24703]
+Job 108 PID[24931] of 1638 started 103 finished PID[24856]
+Job 109 PID[24946] of 1638 started 101 finished PID[24826]
+Job 110 PID[24961] of 1638 started 102 finished PID[24841]
+Job 111 PID[24976] of 1638 started 100 finished PID[24811]
+Job 112 PID[24991] of 1638 started 104 finished PID[24871]
+Job 113 PID[25006] of 1638 started 105 finished PID[24886]
+Job 114 PID[25021] of 1638 started 106 finished PID[24901]
+Job 115 PID[25036] of 1638 started 108 finished PID[24931]
+Job 116 PID[25051] of 1638 started 107 finished PID[24916]
+Job 117 PID[25066] of 1638 started 111 finished PID[24976]
+Job 118 PID[25081] of 1638 started 110 finished PID[24961]
+Job 119 PID[25096] of 1638 started 109 finished PID[24946]
+Job 120 PID[25112] of 1638 started 112 finished PID[24991]
+Job 121 PID[25127] of 1638 started 114 finished PID[25021]
+Job 122 PID[25142] of 1638 started 115 finished PID[25036]
+Job 123 PID[25157] of 1638 started 116 finished PID[25051]
+Job 124 PID[25172] of 1638 started 113 finished PID[25006]
+Job 125 PID[25187] of 1638 started 118 finished PID[25081]
+Job 126 PID[25202] of 1638 started 119 finished PID[25096]
+Job 127 PID[25217] of 1638 started 117 finished PID[25066]
+Job 128 PID[25232] of 1638 started 121 finished PID[25127]
+Job 129 PID[25247] of 1638 started 124 finished PID[25172]
+Job 130 PID[25262] of 1638 started 120 finished PID[25112]
+Job 131 PID[25277] of 1638 started 122 finished PID[25142]
+Job 132 PID[25292] of 1638 started 123 finished PID[25157]
+Job 133 PID[25307] of 1638 started 126 finished PID[25202]
+Job 134 PID[25322] of 1638 started 127 finished PID[25217]
+Job 135 PID[25337] of 1638 started 125 finished PID[25187]
+Job 136 PID[25352] of 1638 started 128 finished PID[25232]
+Job 137 PID[25368] of 1638 started 129 finished PID[25247]
+Job 138 PID[25383] of 1638 started 132 finished PID[25292]
+Job 139 PID[25398] of 1638 started 131 finished PID[25277]
+Job 140 PID[25413] of 1638 started 134 finished PID[25322]
+Job 141 PID[25429] of 1638 started 130 finished PID[25262]
+Job 142 PID[25444] of 1638 started 136 finished PID[25352]
+Job 143 PID[25459] of 1638 started 135 finished PID[25337]
+Job 144 PID[25474] of 1638 started 138 finished PID[25383]
+Job 145 PID[25489] of 1638 started 139 finished PID[25398]
+Job 146 PID[25504] of 1638 started 137 finished PID[25368]
+Job 147 PID[25519] of 1638 started 133 finished PID[25307]
+Job 148 PID[25534] of 1638 started 2 finished PID[23168]
+Job 149 PID[25549] of 1638 started 140 finished PID[25413]
+Job 150 PID[25564] of 1638 started 142 finished PID[25444]
+Job 151 PID[25579] of 1638 started 141 finished PID[25429]
+Job 152 PID[25594] of 1638 started 144 finished PID[25474]
+Job 153 PID[25609] of 1638 started 145 finished PID[25489]
+Job 154 PID[25624] of 1638 started 146 finished PID[25504]
+Job 155 PID[25639] of 1638 started 148 finished PID[25534]
+Job 156 PID[25654] of 1638 started 147 finished PID[25519]
+Job 157 PID[25669] of 1638 started 143 finished PID[25459]
+Job 158 PID[25684] of 1638 started 7 finished PID[23213]
+Job 159 PID[25699] of 1638 started 151 finished PID[25579]
+Job 160 PID[25714] of 1638 started 150 finished PID[25564]
+Job 161 PID[25729] of 1638 started 149 finished PID[25549]
+Job 162 PID[25744] of 1638 started 153 finished PID[25609]
+Job 163 PID[25759] of 1638 started 154 finished PID[25624]
+Job 164 PID[25774] of 1638 started 157 finished PID[25669]
+Job 165 PID[25789] of 1638 started 152 finished PID[25594]
+Job 166 PID[25804] of 1638 started 156 finished PID[25654]
+Job 167 PID[25819] of 1638 started 155 finished PID[25639]
+Job 168 PID[25834] of 1638 started 161 finished PID[25729]
+Job 169 PID[25849] of 1638 started 160 finished PID[25714]
+Job 170 PID[25864] of 1638 started 159 finished PID[25699]
+Job 171 PID[25879] of 1638 started 163 finished PID[25759]
+Job 172 PID[25894] of 1638 started 162 finished PID[25744]
+Job 173 PID[25909] of 1638 started 158 finished PID[25684]
+Job 174 PID[25924] of 1638 started 167 finished PID[25819]
+Job 175 PID[25947] of 1638 started 166 finished PID[25804]
+Job 176 PID[25962] of 1638 started 164 finished PID[25774]
+Job 177 PID[25977] of 1638 started 169 finished PID[25849]
+Job 178 PID[25992] of 1638 started 165 finished PID[25789]
+Job 179 PID[26007] of 1638 started 168 finished PID[25834]
+Job 180 PID[26022] of 1638 started 174 finished PID[25924]
+Job 181 PID[26037] of 1638 started 172 finished PID[25894]
+Job 182 PID[26052] of 1638 started 171 finished PID[25879]
+Job 183 PID[26074] of 1638 started 173 finished PID[25909]
+Job 184 PID[26090] of 1638 started 170 finished PID[25864]
+Job 185 PID[26105] of 1638 started 177 finished PID[25977]
+Job 186 PID[26120] of 1638 started 178 finished PID[25992]
+Job 187 PID[26135] of 1638 started 175 finished PID[25947]
+Job 188 PID[26150] of 1638 started 180 finished PID[26022]
+Job 189 PID[26165] of 1638 started 183 finished PID[26074]
+Job 190 PID[26180] of 1638 started 176 finished PID[25962]
+Job 191 PID[26195] of 1638 started 181 finished PID[26037]
+Job 192 PID[26210] of 1638 started 182 finished PID[26052]
+Job 193 PID[26225] of 1638 started 179 finished PID[26007]
+Job 194 PID[26240] of 1638 started 184 finished PID[26090]
+Job 195 PID[26255] of 1638 started 187 finished PID[26135]
+Job 196 PID[26270] of 1638 started 185 finished PID[26105]
+Job 197 PID[26285] of 1638 started 186 finished PID[26120]
+Job 198 PID[26300] of 1638 started 188 finished PID[26150]
+Job 199 PID[26315] of 1638 started 191 finished PID[26195]
+Job 200 PID[26330] of 1638 started 192 finished PID[26210]
+Job 201 PID[26345] of 1638 started 193 finished PID[26225]
+Job 202 PID[26360] of 1638 started 189 finished PID[26165]
+Job 203 PID[26375] of 1638 started 190 finished PID[26180]
+Job 204 PID[26390] of 1638 started 197 finished PID[26285]
+Job 205 PID[26405] of 1638 started 194 finished PID[26240]
+Job 206 PID[26420] of 1638 started 196 finished PID[26270]
+Job 207 PID[26436] of 1638 started 195 finished PID[26255]
+Job 208 PID[26452] of 1638 started 198 finished PID[26300]
+Job 209 PID[26467] of 1638 started 201 finished PID[26345]
+Job 210 PID[26482] of 1638 started 203 finished PID[26375]
+Job 211 PID[26497] of 1638 started 199 finished PID[26315]
+Job 212 PID[26512] of 1638 started 202 finished PID[26360]
+Job 213 PID[26527] of 1638 started 200 finished PID[26330]
+Job 214 PID[26542] of 1638 started 204 finished PID[26390]
+Job 215 PID[26557] of 1638 started 207 finished PID[26436]
+Job 216 PID[26572] of 1638 started 205 finished PID[26405]
+Job 217 PID[26587] of 1638 started 206 finished PID[26420]
+Job 218 PID[26602] of 1638 started 211 finished PID[26497]
+Job 219 PID[26617] of 1638 started 213 finished PID[26527]
+Job 220 PID[26632] of 1638 started 212 finished PID[26512]
+Job 221 PID[26647] of 1638 started 210 finished PID[26482]
+Job 222 PID[26662] of 1638 started 209 finished PID[26467]
+Job 223 PID[26677] of 1638 started 214 finished PID[26542]
+Job 224 PID[26692] of 1638 started 208 finished PID[26452]
+Job 225 PID[26707] of 1638 started 215 finished PID[26557]
+Job 226 PID[26722] of 1638 started 218 finished PID[26602]
+Job 227 PID[26737] of 1638 started 216 finished PID[26572]
+Job 228 PID[26752] of 1638 started 219 finished PID[26617]
+Job 229 PID[26767] of 1638 started 220 finished PID[26632]
+Job 230 PID[26782] of 1638 started 221 finished PID[26647]
+Job 231 PID[26797] of 1638 started 225 finished PID[26707]
+Job 232 PID[26812] of 1638 started 217 finished PID[26587]
+Job 233 PID[26827] of 1638 started 224 finished PID[26692]
+Job 234 PID[26842] of 1638 started 222 finished PID[26662]
+Job 235 PID[26857] of 1638 started 226 finished PID[26722]
+Job 236 PID[26872] of 1638 started 223 finished PID[26677]
+Job 237 PID[26887] of 1638 started 227 finished PID[26737]
+Job 238 PID[26902] of 1638 started 228 finished PID[26752]
+Job 239 PID[26917] of 1638 started 229 finished PID[26767]
+Job 240 PID[26932] of 1638 started 232 finished PID[26812]
+Job 241 PID[26947] of 1638 started 230 finished PID[26782]
+Job 242 PID[26962] of 1638 started 231 finished PID[26797]
+Job 243 PID[26977] of 1638 started 234 finished PID[26842]
+Job 244 PID[26992] of 1638 started 236 finished PID[26872]
+Job 245 PID[27007] of 1638 started 233 finished PID[26827]
+Job 246 PID[27022] of 1638 started 235 finished PID[26857]
+Job 247 PID[27037] of 1638 started 237 finished PID[26887]
+Job 248 PID[27052] of 1638 started 239 finished PID[26917]
+Job 249 PID[27067] of 1638 started 240 finished PID[26932]
+Job 250 PID[27082] of 1638 started 241 finished PID[26947]
+Job 251 PID[27098] of 1638 started 238 finished PID[26902]
+Job 252 PID[27113] of 1638 started 242 finished PID[26962]
+Job 253 PID[27128] of 1638 started 245 finished PID[27007]
+Job 254 PID[27143] of 1638 started 243 finished PID[26977]
+Job 255 PID[27158] of 1638 started 244 finished PID[26992]
+Job 256 PID[27173] of 1638 started 249 finished PID[27067]
+Job 257 PID[27188] of 1638 started 246 finished PID[27022]
+Job 258 PID[27203] of 1638 started 247 finished PID[27037]
+Job 259 PID[27218] of 1638 started 248 finished PID[27052]
+Job 260 PID[27233] of 1638 started 251 finished PID[27098]
+Job 261 PID[27248] of 1638 started 252 finished PID[27113]
+Job 262 PID[27263] of 1638 started 255 finished PID[27158]
+Job 263 PID[27278] of 1638 started 250 finished PID[27082]
+Job 264 PID[27293] of 1638 started 254 finished PID[27143]
+Job 265 PID[27308] of 1638 started 258 finished PID[27203]
+Job 266 PID[27323] of 1638 started 253 finished PID[27128]
+Job 267 PID[27338] of 1638 started 256 finished PID[27173]
+Job 268 PID[27353] of 1638 started 259 finished PID[27218]
+Job 269 PID[27368] of 1638 started 257 finished PID[27188]
+Job 270 PID[27383] of 1638 started 260 finished PID[27233]
+Job 271 PID[27398] of 1638 started 263 finished PID[27278]
+Job 272 PID[27413] of 1638 started 262 finished PID[27263]
+Job 273 PID[27428] of 1638 started 261 finished PID[27248]
+Job 274 PID[27443] of 1638 started 266 finished PID[27323]
+Job 275 PID[27458] of 1638 started 265 finished PID[27308]
+Job 276 PID[27473] of 1638 started 267 finished PID[27338]
+Job 277 PID[27489] of 1638 started 269 finished PID[27368]
+Job 278 PID[27504] of 1638 started 268 finished PID[27353]
+Job 279 PID[27519] of 1638 started 264 finished PID[27293]
+Job 280 PID[27534] of 1638 started 271 finished PID[27398]
+Job 281 PID[27549] of 1638 started 272 finished PID[27413]
+Job 282 PID[27564] of 1638 started 270 finished PID[27383]
+Job 283 PID[27579] of 1638 started 273 finished PID[27428]
+Job 284 PID[27594] of 1638 started 274 finished PID[27443]
+Job 285 PID[27609] of 1638 started 276 finished PID[27473]
+Job 286 PID[27624] of 1638 started 279 finished PID[27519]
+Job 287 PID[27639] of 1638 started 277 finished PID[27489]
+Job 288 PID[27654] of 1638 started 278 finished PID[27504]
+Job 289 PID[27669] of 1638 started 275 finished PID[27458]
+Job 290 PID[27684] of 1638 started 281 finished PID[27549]
+Job 291 PID[27699] of 1638 started 283 finished PID[27579]
+Job 292 PID[27714] of 1638 started 280 finished PID[27534]
+Job 293 PID[27729] of 1638 started 282 finished PID[27564]
+Job 294 PID[27744] of 1638 started 284 finished PID[27594]
+Job 295 PID[27759] of 1638 started 285 finished PID[27609]
+Job 296 PID[27780] of 1638 started 287 finished PID[27639]
+Job 297 PID[27795] of 1638 started 286 finished PID[27624]
+Job 298 PID[27810] of 1638 started 288 finished PID[27654]
+Job 299 PID[27827] of 1638 started 292 finished PID[27714]
+Job 300 PID[27842] of 1638 started 291 finished PID[27699]
+Job 301 PID[27857] of 1638 started 290 finished PID[27684]
+Job 302 PID[27871] of 1638 started 293 finished PID[27729]
+Job 303 PID[27887] of 1638 started 289 finished PID[27669]
+Job 304 PID[27902] of 1638 started 298 finished PID[27810]
+Job 305 PID[27917] of 1638 started 294 finished PID[27744]
+Job 306 PID[27932] of 1638 started 297 finished PID[27795]
+Job 307 PID[27947] of 1638 started 295 finished PID[27759]
+Job 308 PID[27962] of 1638 started 296 finished PID[27780]
+Job 309 PID[27977] of 1638 started 301 finished PID[27857]
+Job 310 PID[27992] of 1638 started 300 finished PID[27842]
+Job 311 PID[28007] of 1638 started 302 finished PID[27871]
+Job 312 PID[28022] of 1638 started 303 finished PID[27887]
+Job 313 PID[28037] of 1638 started 299 finished PID[27827]
+Job 314 PID[28052] of 1638 started 304 finished PID[27902]
+Job 315 PID[28067] of 1638 started 306 finished PID[27932]
+Job 316 PID[28082] of 1638 started 305 finished PID[27917]
+Job 317 PID[28097] of 1638 started 310 finished PID[27992]
+Job 318 PID[28112] of 1638 started 309 finished PID[27977]
+Job 319 PID[28127] of 1638 started 313 finished PID[28037]
+Job 320 PID[28142] of 1638 started 307 finished PID[27947]
+Job 321 PID[28157] of 1638 started 314 finished PID[28052]
+Job 322 PID[28172] of 1638 started 311 finished PID[28007]
+Job 323 PID[28187] of 1638 started 312 finished PID[28022]
+Job 324 PID[28202] of 1638 started 308 finished PID[27962]
+Job 325 PID[28217] of 1638 started 316 finished PID[28082]
+Job 326 PID[28232] of 1638 started 318 finished PID[28112]
+Job 327 PID[28247] of 1638 started 317 finished PID[28097]
+Job 328 PID[28262] of 1638 started 315 finished PID[28067]
+Job 329 PID[28277] of 1638 started 321 finished PID[28157]
+Job 330 PID[28292] of 1638 started 324 finished PID[28202]
+Job 331 PID[28307] of 1638 started 320 finished PID[28142]
+Job 332 PID[28322] of 1638 started 323 finished PID[28187]
+Job 333 PID[28337] of 1638 started 319 finished PID[28127]
+Job 334 PID[28352] of 1638 started 322 finished PID[28172]
+Job 335 PID[28367] of 1638 started 325 finished PID[28217]
+Job 336 PID[28382] of 1638 started 326 finished PID[28232]
+Job 337 PID[28397] of 1638 started 327 finished PID[28247]
+Job 338 PID[28412] of 1638 started 328 finished PID[28262]
+Job 339 PID[28427] of 1638 started 329 finished PID[28277]
+Job 340 PID[28442] of 1638 started 332 finished PID[28322]
+Job 341 PID[28457] of 1638 started 330 finished PID[28292]
+Job 342 PID[28472] of 1638 started 331 finished PID[28307]
+Job 343 PID[28487] of 1638 started 333 finished PID[28337]
+Job 344 PID[28502] of 1638 started 334 finished PID[28352]
+Job 345 PID[28517] of 1638 started 335 finished PID[28367]
+Job 346 PID[28532] of 1638 started 340 finished PID[28442]
+Job 347 PID[28547] of 1638 started 336 finished PID[28382]
+Job 348 PID[28562] of 1638 started 337 finished PID[28397]
+Job 349 PID[28577] of 1638 started 338 finished PID[28412]
+Job 350 PID[28592] of 1638 started 344 finished PID[28502]
+Job 351 PID[28607] of 1638 started 341 finished PID[28457]
+Job 352 PID[28622] of 1638 started 339 finished PID[28427]
+Job 353 PID[28637] of 1638 started 342 finished PID[28472]
+Job 354 PID[28652] of 1638 started 343 finished PID[28487]
+Job 355 PID[28667] of 1638 started 346 finished PID[28532]
+Job 356 PID[28682] of 1638 started 349 finished PID[28577]
+Job 357 PID[28697] of 1638 started 347 finished PID[28547]
+Job 358 PID[28712] of 1638 started 348 finished PID[28562]
+Job 359 PID[28727] of 1638 started 345 finished PID[28517]
+Job 360 PID[28742] of 1638 started 350 finished PID[28592]
+Job 361 PID[28757] of 1638 started 352 finished PID[28622]
+Job 362 PID[28772] of 1638 started 353 finished PID[28637]
+Job 363 PID[28787] of 1638 started 351 finished PID[28607]
+Job 364 PID[28802] of 1638 started 354 finished PID[28652]
+Job 365 PID[28817] of 1638 started 357 finished PID[28697]
+Job 366 PID[28832] of 1638 started 359 finished PID[28727]
+Job 367 PID[28847] of 1638 started 356 finished PID[28682]
+Job 368 PID[28862] of 1638 started 358 finished PID[28712]
+Job 369 PID[28878] of 1638 started 355 finished PID[28667]
+Job 370 PID[28893] of 1638 started 360 finished PID[28742]
+Job 371 PID[28908] of 1638 started 362 finished PID[28772]
+Job 372 PID[28923] of 1638 started 361 finished PID[28757]
+Job 373 PID[28938] of 1638 started 364 finished PID[28802]
+Job 374 PID[28956] of 1638 started 365 finished PID[28817]
+Job 375 PID[28971] of 1638 started 368 finished PID[28862]
+Job 376 PID[28986] of 1638 started 363 finished PID[28787]
+Job 377 PID[29001] of 1638 started 367 finished PID[28847]
+Job 378 PID[29016] of 1638 started 366 finished PID[28832]
+Job 379 PID[29031] of 1638 started 369 finished PID[28878]
+Job 380 PID[29046] of 1638 started 372 finished PID[28923]
+Job 381 PID[29061] of 1638 started 371 finished PID[28908]
+Job 382 PID[29076] of 1638 started 374 finished PID[28956]
+Job 383 PID[29091] of 1638 started 373 finished PID[28938]
+Job 384 PID[29106] of 1638 started 376 finished PID[28986]
+Job 385 PID[29121] of 1638 started 370 finished PID[28893]
+Job 386 PID[29136] of 1638 started 375 finished PID[28971]
+Job 387 PID[29151] of 1638 started 377 finished PID[29001]
+Job 388 PID[29166] of 1638 started 380 finished PID[29046]
+Job 389 PID[29181] of 1638 started 381 finished PID[29061]
+Job 390 PID[29196] of 1638 started 378 finished PID[29016]
+Job 391 PID[29211] of 1638 started 382 finished PID[29076]
+Job 392 PID[29226] of 1638 started 379 finished PID[29031]
+Job 393 PID[29241] of 1638 started 383 finished PID[29091]
+Job 394 PID[29256] of 1638 started 386 finished PID[29136]
+Job 395 PID[29271] of 1638 started 384 finished PID[29106]
+Job 396 PID[29286] of 1638 started 385 finished PID[29121]
+Job 397 PID[29301] of 1638 started 387 finished PID[29151]
+Job 398 PID[29316] of 1638 started 389 finished PID[29181]
+Job 399 PID[29331] of 1638 started 388 finished PID[29166]
+Job 400 PID[29346] of 1638 started 393 finished PID[29241]
+Job 401 PID[29361] of 1638 started 392 finished PID[29226]
+Job 402 PID[29376] of 1638 started 390 finished PID[29196]
+Job 403 PID[29391] of 1638 started 391 finished PID[29211]
+Job 404 PID[29405] of 1638 started 394 finished PID[29256]
+Job 405 PID[29421] of 1638 started 396 finished PID[29286]
+Job 406 PID[29436] of 1638 started 395 finished PID[29271]
+Job 407 PID[29451] of 1638 started 397 finished PID[29301]
+Job 408 PID[29468] of 1638 started 399 finished PID[29331]
+Job 409 PID[29483] of 1638 started 398 finished PID[29316]
+Job 410 PID[29498] of 1638 started 402 finished PID[29376]
+Job 411 PID[29513] of 1638 started 403 finished PID[29391]
+Job 412 PID[29528] of 1638 started 404 finished PID[29405]
+Job 413 PID[29543] of 1638 started 401 finished PID[29361]
+Job 414 PID[29558] of 1638 started 406 finished PID[29436]
+Job 415 PID[29573] of 1638 started 400 finished PID[29346]
+Job 416 PID[29588] of 1638 started 405 finished PID[29421]
+Job 417 PID[29603] of 1638 started 407 finished PID[29451]
+Job 418 PID[29618] of 1638 started 408 finished PID[29468]
+Job 419 PID[29633] of 1638 started 410 finished PID[29498]
+Job 420 PID[29648] of 1638 started 411 finished PID[29513]
+Job 421 PID[29664] of 1638 started 409 finished PID[29483]
+Job 422 PID[29679] of 1638 started 412 finished PID[29528]
+Job 423 PID[29694] of 1638 started 413 finished PID[29543]
+Job 424 PID[29709] of 1638 started 415 finished PID[29573]
+Job 425 PID[29724] of 1638 started 414 finished PID[29558]
+Job 426 PID[29739] of 1638 started 416 finished PID[29588]
+Job 427 PID[29754] of 1638 started 417 finished PID[29603]
+Job 428 PID[29769] of 1638 started 418 finished PID[29618]
+Job 429 PID[29784] of 1638 started 419 finished PID[29633]
+Job 430 PID[29799] of 1638 started 420 finished PID[29648]
+Job 431 PID[29814] of 1638 started 421 finished PID[29664]
+Job 432 PID[29829] of 1638 started 422 finished PID[29679]
+Job 433 PID[29844] of 1638 started 423 finished PID[29694]
+Job 434 PID[29867] of 1638 started 424 finished PID[29709]
+Job 435 PID[29882] of 1638 started 426 finished PID[29739]
+Job 436 PID[29897] of 1638 started 425 finished PID[29724]
+Job 437 PID[29912] of 1638 started 427 finished PID[29754]
+Job 438 PID[29927] of 1638 started 431 finished PID[29814]
+Job 439 PID[29942] of 1638 started 428 finished PID[29769]
+Job 440 PID[29957] of 1638 started 434 finished PID[29867]
+Job 441 PID[29972] of 1638 started 429 finished PID[29784]
+Job 442 PID[29987] of 1638 started 432 finished PID[29829]
+Job 443 PID[30002] of 1638 started 437 finished PID[29912]
+Job 444 PID[30017] of 1638 started 430 finished PID[29799]
+Job 445 PID[30032] of 1638 started 433 finished PID[29844]
+Job 446 PID[30047] of 1638 started 435 finished PID[29882]
+Job 447 PID[30063] of 1638 started 436 finished PID[29897]
+Job 448 PID[30078] of 1638 started 438 finished PID[29927]
+Job 449 PID[30093] of 1638 started 439 finished PID[29942]
+Job 450 PID[30108] of 1638 started 441 finished PID[29972]
+Job 451 PID[30123] of 1638 started 442 finished PID[29987]
+Job 452 PID[30138] of 1638 started 440 finished PID[29957]
+Job 453 PID[30153] of 1638 started 445 finished PID[30032]
+Job 454 PID[30168] of 1638 started 446 finished PID[30047]
+Job 455 PID[30183] of 1638 started 444 finished PID[30017]
+Job 456 PID[30198] of 1638 started 443 finished PID[30002]
+Job 457 PID[30213] of 1638 started 448 finished PID[30078]
+Job 458 PID[30228] of 1638 started 447 finished PID[30063]
+Job 459 PID[30243] of 1638 started 450 finished PID[30108]
+Job 460 PID[30258] of 1638 started 449 finished PID[30093]
+Job 461 PID[30273] of 1638 started 452 finished PID[30138]
+Job 462 PID[30288] of 1638 started 451 finished PID[30123]
+Job 463 PID[30303] of 1638 started 454 finished PID[30168]
+Job 464 PID[30318] of 1638 started 458 finished PID[30228]
+Job 465 PID[30333] of 1638 started 455 finished PID[30183]
+Job 466 PID[30355] of 1638 started 453 finished PID[30153]
+Job 467 PID[30379] of 1638 started 456 finished PID[30198]
+Job 468 PID[30394] of 1638 started 457 finished PID[30213]
+Job 469 PID[30409] of 1638 started 460 finished PID[30258]
+Job 470 PID[30429] of 1638 started 459 finished PID[30243]
+Job 471 PID[30459] of 1638 started 462 finished PID[30288]
+Job 472 PID[30481] of 1638 started 461 finished PID[30273]
+Job 473 PID[30496] of 1638 started 463 finished PID[30303]
+Job 474 PID[30511] of 1638 started 467 finished PID[30379]
+Job 475 PID[30526] of 1638 started 464 finished PID[30318]
+Job 476 PID[30541] of 1638 started 465 finished PID[30333]
+Job 477 PID[30556] of 1638 started 469 finished PID[30409]
+Job 478 PID[30571] of 1638 started 468 finished PID[30394]
+Job 479 PID[30586] of 1638 started 466 finished PID[30355]
+Job 480 PID[30601] of 1638 started 470 finished PID[30429]
+Job 481 PID[30616] of 1638 started 471 finished PID[30459]
+Job 482 PID[30631] of 1638 started 472 finished PID[30481]
+Job 483 PID[30646] of 1638 started 475 finished PID[30526]
+Job 484 PID[30661] of 1638 started 474 finished PID[30511]
+Job 485 PID[30676] of 1638 started 477 finished PID[30556]
+Job 486 PID[30691] of 1638 started 478 finished PID[30571]
+Job 487 PID[30706] of 1638 started 476 finished PID[30541]
+Job 488 PID[30721] of 1638 started 473 finished PID[30496]
+Job 489 PID[30736] of 1638 started 479 finished PID[30586]
+Job 490 PID[30751] of 1638 started 480 finished PID[30601]
+Job 491 PID[30767] of 1638 started 483 finished PID[30646]
+Job 492 PID[30783] of 1638 started 481 finished PID[30616]
+Job 493 PID[30798] of 1638 started 482 finished PID[30631]
+Job 494 PID[30813] of 1638 started 485 finished PID[30676]
+Job 495 PID[30828] of 1638 started 486 finished PID[30691]
+Job 496 PID[30843] of 1638 started 484 finished PID[30661]
+Job 497 PID[30858] of 1638 started 488 finished PID[30721]
+Job 498 PID[30873] of 1638 started 489 finished PID[30736]
+Job 499 PID[30888] of 1638 started 487 finished PID[30706]
+Job 500 PID[30903] of 1638 started 490 finished PID[30751]
+Job 501 PID[30918] of 1638 started 491 finished PID[30767]
+Job 502 PID[30933] of 1638 started 492 finished PID[30783]
+Job 503 PID[30948] of 1638 started 493 finished PID[30798]
+Job 504 PID[30963] of 1638 started 494 finished PID[30813]
+Job 505 PID[30978] of 1638 started 495 finished PID[30828]
+Job 506 PID[30993] of 1638 started 496 finished PID[30843]
+Job 507 PID[31008] of 1638 started 498 finished PID[30873]
+Job 508 PID[31023] of 1638 started 499 finished PID[30888]
+Job 509 PID[31038] of 1638 started 497 finished PID[30858]
+Job 510 PID[31053] of 1638 started 500 finished PID[30903]
+Job 511 PID[31068] of 1638 started 501 finished PID[30918]
+Job 512 PID[31083] of 1638 started 502 finished PID[30933]
+Job 513 PID[31099] of 1638 started 503 finished PID[30948]
+Job 514 PID[31119] of 1638 started 504 finished PID[30963]
+Job 515 PID[31134] of 1638 started 506 finished PID[30993]
+Job 516 PID[31149] of 1638 started 505 finished PID[30978]
+Job 517 PID[31164] of 1638 started 509 finished PID[31038]
+Job 518 PID[31179] of 1638 started 507 finished PID[31008]
+Job 519 PID[31194] of 1638 started 511 finished PID[31068]
+Job 520 PID[31209] of 1638 started 512 finished PID[31083]
+Job 521 PID[31224] of 1638 started 510 finished PID[31053]
+Job 522 PID[31240] of 1638 started 508 finished PID[31023]
+Job 523 PID[31255] of 1638 started 516 finished PID[31149]
+Job 524 PID[31270] of 1638 started 513 finished PID[31099]
+Job 525 PID[31285] of 1638 started 514 finished PID[31119]
+Job 526 PID[31300] of 1638 started 515 finished PID[31134]
+Job 527 PID[31315] of 1638 started 517 finished PID[31164]
+Job 528 PID[31330] of 1638 started 519 finished PID[31194]
+Job 529 PID[31345] of 1638 started 521 finished PID[31224]
+Job 530 PID[31360] of 1638 started 520 finished PID[31209]
+Job 531 PID[31377] of 1638 started 522 finished PID[31240]
+Job 532 PID[31393] of 1638 started 518 finished PID[31179]
+Job 533 PID[31409] of 1638 started 524 finished PID[31270]
+Job 534 PID[31424] of 1638 started 523 finished PID[31255]
+Job 535 PID[31439] of 1638 started 525 finished PID[31285]
+Job 536 PID[31454] of 1638 started 527 finished PID[31315]
+Job 537 PID[31469] of 1638 started 526 finished PID[31300]
+Job 538 PID[31484] of 1638 started 528 finished PID[31330]
+Job 539 PID[31499] of 1638 started 530 finished PID[31360]
+Job 540 PID[31514] of 1638 started 533 finished PID[31409]
+Job 541 PID[31529] of 1638 started 531 finished PID[31377]
+Job 542 PID[31544] of 1638 started 529 finished PID[31345]
+Job 543 PID[31559] of 1638 started 534 finished PID[31424]
+Job 544 PID[31574] of 1638 started 536 finished PID[31454]
+Job 545 PID[31589] of 1638 started 532 finished PID[31393]
+Job 546 PID[31604] of 1638 started 537 finished PID[31469]
+Job 547 PID[31619] of 1638 started 535 finished PID[31439]
+Job 548 PID[31634] of 1638 started 538 finished PID[31484]
+Job 549 PID[31649] of 1638 started 539 finished PID[31499]
+Job 550 PID[31664] of 1638 started 540 finished PID[31514]
+Job 551 PID[31680] of 1638 started 541 finished PID[31529]
+Job 552 PID[31695] of 1638 started 543 finished PID[31559]
+Job 553 PID[31710] of 1638 started 545 finished PID[31589]
+Job 554 PID[31725] of 1638 started 544 finished PID[31574]
+Job 555 PID[31740] of 1638 started 542 finished PID[31544]
+Job 556 PID[31755] of 1638 started 548 finished PID[31634]
+Job 557 PID[31770] of 1638 started 546 finished PID[31604]
+Job 558 PID[31785] of 1638 started 550 finished PID[31664]
+Job 559 PID[31800] of 1638 started 549 finished PID[31649]
+Job 560 PID[31815] of 1638 started 547 finished PID[31619]
+Job 561 PID[31830] of 1638 started 551 finished PID[31680]
+Job 562 PID[31845] of 1638 started 552 finished PID[31695]
+Job 563 PID[31860] of 1638 started 553 finished PID[31710]
+Job 564 PID[31875] of 1638 started 554 finished PID[31725]
+Job 565 PID[31890] of 1638 started 555 finished PID[31740]
+Job 566 PID[31905] of 1638 started 558 finished PID[31785]
+Job 567 PID[31920] of 1638 started 560 finished PID[31815]
+Job 568 PID[31935] of 1638 started 556 finished PID[31755]
+Job 569 PID[31950] of 1638 started 557 finished PID[31770]
+Job 570 PID[31965] of 1638 started 562 finished PID[31845]
+Job 571 PID[31980] of 1638 started 559 finished PID[31800]
+Job 572 PID[31995] of 1638 started 561 finished PID[31830]
+Job 573 PID[32010] of 1638 started 565 finished PID[31890]
+Job 574 PID[32025] of 1638 started 563 finished PID[31860]
+Job 575 PID[32040] of 1638 started 564 finished PID[31875]
+Job 576 PID[32061] of 1638 started 569 finished PID[31950]
+Job 577 PID[32076] of 1638 started 567 finished PID[31920]
+Job 578 PID[32093] of 1638 started 568 finished PID[31935]
+Job 579 PID[32108] of 1638 started 571 finished PID[31980]
+Job 580 PID[32123] of 1638 started 570 finished PID[31965]
+Job 581 PID[32138] of 1638 started 566 finished PID[31905]
+Job 582 PID[32153] of 1638 started 572 finished PID[31995]
+Job 583 PID[32168] of 1638 started 573 finished PID[32010]
+Job 584 PID[32183] of 1638 started 574 finished PID[32025]
+Job 585 PID[32198] of 1638 started 575 finished PID[32040]
+Job 586 PID[32213] of 1638 started 577 finished PID[32076]
+Job 587 PID[32228] of 1638 started 576 finished PID[32061]
+Job 588 PID[32243] of 1638 started 583 finished PID[32168]
+Job 589 PID[32258] of 1638 started 582 finished PID[32153]
+Job 590 PID[32273] of 1638 started 580 finished PID[32123]
+Job 591 PID[32288] of 1638 started 581 finished PID[32138]
+Job 592 PID[32303] of 1638 started 578 finished PID[32093]
+Job 593 PID[32318] of 1638 started 579 finished PID[32108]
+Job 594 PID[32333] of 1638 started 585 finished PID[32198]
+Job 595 PID[32348] of 1638 started 584 finished PID[32183]
+Job 596 PID[32363] of 1638 started 586 finished PID[32213]
+Job 597 PID[32378] of 1638 started 588 finished PID[32243]
+Job 598 PID[32393] of 1638 started 591 finished PID[32288]
+Job 599 PID[32408] of 1638 started 592 finished PID[32303]
+Job 600 PID[32423] of 1638 started 587 finished PID[32228]
+Job 601 PID[32438] of 1638 started 593 finished PID[32318]
+Job 602 PID[32453] of 1638 started 590 finished PID[32273]
+Job 603 PID[32468] of 1638 started 589 finished PID[32258]
+Job 604 PID[32483] of 1638 started 594 finished PID[32333]
+Job 605 PID[32498] of 1638 started 595 finished PID[32348]
+Job 606 PID[32514] of 1638 started 597 finished PID[32378]
+Job 607 PID[32529] of 1638 started 596 finished PID[32363]
+Job 608 PID[32544] of 1638 started 599 finished PID[32408]
+Job 609 PID[32559] of 1638 started 603 finished PID[32468]
+Job 610 PID[32574] of 1638 started 600 finished PID[32423]
+Job 611 PID[32589] of 1638 started 601 finished PID[32438]
+Job 612 PID[32604] of 1638 started 598 finished PID[32393]
+Job 613 PID[32619] of 1638 started 602 finished PID[32453]
+Job 614 PID[32634] of 1638 started 605 finished PID[32498]
+Job 615 PID[32649] of 1638 started 604 finished PID[32483]
+Job 616 PID[32668] of 1638 started 606 finished PID[32514]
+Job 617 PID[32683] of 1638 started 609 finished PID[32559]
+Job 618 PID[32698] of 1638 started 610 finished PID[32574]
+Job 619 PID[32713] of 1638 started 611 finished PID[32589]
+Job 620 PID[32728] of 1638 started 608 finished PID[32544]
+Job 621 PID[32743] of 1638 started 612 finished PID[32604]
+Job 622 PID[32758] of 1638 started 607 finished PID[32529]
+Job 623 PID[32773] of 1638 started 613 finished PID[32619]
+Job 624 PID[32788] of 1638 started 614 finished PID[32634]
+Job 625 PID[32803] of 1638 started 616 finished PID[32668]
+Job 626 PID[32818] of 1638 started 615 finished PID[32649]
+Job 627 PID[32833] of 1638 started 619 finished PID[32713]
+Job 628 PID[32848] of 1638 started 618 finished PID[32698]
+Job 629 PID[32863] of 1638 started 621 finished PID[32743]
+Job 630 PID[32878] of 1638 started 617 finished PID[32683]
+Job 631 PID[32893] of 1638 started 620 finished PID[32728]
+Job 632 PID[32909] of 1638 started 623 finished PID[32773]
+Job 633 PID[32924] of 1638 started 625 finished PID[32803]
+Job 634 PID[32939] of 1638 started 622 finished PID[32758]
+Job 635 PID[32954] of 1638 started 624 finished PID[32788]
+Job 636 PID[32969] of 1638 started 626 finished PID[32818]
+Job 637 PID[32984] of 1638 started 627 finished PID[32833]
+Job 638 PID[32999] of 1638 started 631 finished PID[32893]
+Job 639 PID[33014] of 1638 started 628 finished PID[32848]
+Job 640 PID[33029] of 1638 started 629 finished PID[32863]
+Job 641 PID[33044] of 1638 started 630 finished PID[32878]
+Job 642 PID[33059] of 1638 started 632 finished PID[32909]
+Job 643 PID[33074] of 1638 started 633 finished PID[32924]
+Job 644 PID[33089] of 1638 started 634 finished PID[32939]
+Job 645 PID[33104] of 1638 started 636 finished PID[32969]
+Job 646 PID[33119] of 1638 started 635 finished PID[32954]
+Job 647 PID[33134] of 1638 started 637 finished PID[32984]
+Job 648 PID[33149] of 1638 started 638 finished PID[32999]
+Job 649 PID[33164] of 1638 started 639 finished PID[33014]
+Job 650 PID[33179] of 1638 started 640 finished PID[33029]
+Job 651 PID[33194] of 1638 started 642 finished PID[33059]
+Job 652 PID[33209] of 1638 started 643 finished PID[33074]
+Job 653 PID[33224] of 1638 started 641 finished PID[33044]
+Job 654 PID[33239] of 1638 started 646 finished PID[33119]
+Job 655 PID[33254] of 1638 started 645 finished PID[33104]
+Job 656 PID[33269] of 1638 started 644 finished PID[33089]
+Job 657 PID[33284] of 1638 started 647 finished PID[33134]
+Job 658 PID[33299] of 1638 started 648 finished PID[33149]
+Job 659 PID[33314] of 1638 started 650 finished PID[33179]
+Job 660 PID[33329] of 1638 started 649 finished PID[33164]
+Job 661 PID[33344] of 1638 started 651 finished PID[33194]
+Job 662 PID[33359] of 1638 started 654 finished PID[33239]
+Job 663 PID[33374] of 1638 started 652 finished PID[33209]
+Job 664 PID[33389] of 1638 started 653 finished PID[33224]
+Job 665 PID[33404] of 1638 started 655 finished PID[33254]
+Job 666 PID[33419] of 1638 started 656 finished PID[33269]
+Job 667 PID[33434] of 1638 started 657 finished PID[33284]
+Job 668 PID[33449] of 1638 started 660 finished PID[33329]
+Job 669 PID[33464] of 1638 started 659 finished PID[33314]
+Job 670 PID[33479] of 1638 started 664 finished PID[33389]
+Job 671 PID[33494] of 1638 started 658 finished PID[33299]
+Job 672 PID[33509] of 1638 started 663 finished PID[33374]
+Job 673 PID[33524] of 1638 started 661 finished PID[33344]
+Job 674 PID[33539] of 1638 started 662 finished PID[33359]
+Job 675 PID[33554] of 1638 started 665 finished PID[33404]
+Job 676 PID[33569] of 1638 started 666 finished PID[33419]
+Job 677 PID[33584] of 1638 started 668 finished PID[33449]
+Job 678 PID[33599] of 1638 started 667 finished PID[33434]
+Job 679 PID[33614] of 1638 started 669 finished PID[33464]
+Job 680 PID[33629] of 1638 started 672 finished PID[33509]
+Job 681 PID[33645] of 1638 started 670 finished PID[33479]
+Job 682 PID[33660] of 1638 started 671 finished PID[33494]
+Job 683 PID[33675] of 1638 started 674 finished PID[33539]
+Job 684 PID[33690] of 1638 started 675 finished PID[33554]
+Job 685 PID[33705] of 1638 started 676 finished PID[33569]
+Job 686 PID[33720] of 1638 started 673 finished PID[33524]
+Job 687 PID[33735] of 1638 started 677 finished PID[33584]
+Job 688 PID[33750] of 1638 started 679 finished PID[33614]
+Job 689 PID[33765] of 1638 started 678 finished PID[33599]
+Job 690 PID[33780] of 1638 started 680 finished PID[33629]
+Job 691 PID[33795] of 1638 started 682 finished PID[33660]
+Job 692 PID[33810] of 1638 started 681 finished PID[33645]
+Job 693 PID[33825] of 1638 started 683 finished PID[33675]
+Job 694 PID[33840] of 1638 started 685 finished PID[33705]
+Job 695 PID[33855] of 1638 started 684 finished PID[33690]
+Job 696 PID[33870] of 1638 started 686 finished PID[33720]
+Job 697 PID[33885] of 1638 started 687 finished PID[33735]
+Job 698 PID[33900] of 1638 started 688 finished PID[33750]
+Job 699 PID[33915] of 1638 started 689 finished PID[33765]
+Job 700 PID[33930] of 1638 started 690 finished PID[33780]
+Job 701 PID[33945] of 1638 started 692 finished PID[33810]
+Job 702 PID[33960] of 1638 started 691 finished PID[33795]
+Job 703 PID[33975] of 1638 started 693 finished PID[33825]
+Job 704 PID[33990] of 1638 started 696 finished PID[33870]
+Job 705 PID[34005] of 1638 started 695 finished PID[33855]
+Job 706 PID[34020] of 1638 started 698 finished PID[33900]
+Job 707 PID[34035] of 1638 started 694 finished PID[33840]
+Job 708 PID[34050] of 1638 started 697 finished PID[33885]
+Job 709 PID[34065] of 1638 started 699 finished PID[33915]
+Job 710 PID[34080] of 1638 started 701 finished PID[33945]
+Job 711 PID[34095] of 1638 started 700 finished PID[33930]
+Job 712 PID[34110] of 1638 started 703 finished PID[33975]
+Job 713 PID[34125] of 1638 started 705 finished PID[34005]
+Job 714 PID[34140] of 1638 started 702 finished PID[33960]
+Job 715 PID[34155] of 1638 started 707 finished PID[34035]
+Job 716 PID[34171] of 1638 started 706 finished PID[34020]
+Job 717 PID[34186] of 1638 started 704 finished PID[33990]
+Job 718 PID[34201] of 1638 started 710 finished PID[34080]
+Job 719 PID[34216] of 1638 started 708 finished PID[34050]
+Job 720 PID[34231] of 1638 started 709 finished PID[34065]
+Job 721 PID[34246] of 1638 started 711 finished PID[34095]
+Job 722 PID[34261] of 1638 started 714 finished PID[34140]
+Job 723 PID[34276] of 1638 started 712 finished PID[34110]
+Job 724 PID[34291] of 1638 started 716 finished PID[34171]
+Job 725 PID[34306] of 1638 started 713 finished PID[34125]
+Job 726 PID[34321] of 1638 started 715 finished PID[34155]
+Job 727 PID[34336] of 1638 started 717 finished PID[34186]
+Job 728 PID[34351] of 1638 started 719 finished PID[34216]
+Job 729 PID[34366] of 1638 started 718 finished PID[34201]
+Job 730 PID[34381] of 1638 started 720 finished PID[34231]
+Job 731 PID[34396] of 1638 started 724 finished PID[34291]
+Job 732 PID[34411] of 1638 started 721 finished PID[34246]
+Job 733 PID[34426] of 1638 started 722 finished PID[34261]
+Job 734 PID[34441] of 1638 started 725 finished PID[34306]
+Job 735 PID[34456] of 1638 started 726 finished PID[34321]
+Job 736 PID[34471] of 1638 started 723 finished PID[34276]
+Job 737 PID[34494] of 1638 started 729 finished PID[34366]
+Job 738 PID[34509] of 1638 started 728 finished PID[34351]
+Job 739 PID[34524] of 1638 started 730 finished PID[34381]
+Job 740 PID[34539] of 1638 started 727 finished PID[34336]
+Job 741 PID[34556] of 1638 started 732 finished PID[34411]
+Job 742 PID[34571] of 1638 started 731 finished PID[34396]
+Job 743 PID[34586] of 1638 started 733 finished PID[34426]
+Job 744 PID[34601] of 1638 started 736 finished PID[34471]
+Job 745 PID[34616] of 1638 started 735 finished PID[34456]
+Job 746 PID[34632] of 1638 started 734 finished PID[34441]
+Job 747 PID[34647] of 1638 started 738 finished PID[34509]
+Job 748 PID[34662] of 1638 started 737 finished PID[34494]
+Job 749 PID[34680] of 1638 started 740 finished PID[34539]
+Job 750 PID[34695] of 1638 started 739 finished PID[34524]
+Job 751 PID[34710] of 1638 started 743 finished PID[34586]
+Job 752 PID[34725] of 1638 started 742 finished PID[34571]
+Job 753 PID[34740] of 1638 started 744 finished PID[34601]
+Job 754 PID[34755] of 1638 started 741 finished PID[34556]
+Job 755 PID[34770] of 1638 started 745 finished PID[34616]
+Job 756 PID[34785] of 1638 started 746 finished PID[34632]
+Job 757 PID[34800] of 1638 started 747 finished PID[34647]
+Job 758 PID[34815] of 1638 started 748 finished PID[34662]
+Job 759 PID[34830] of 1638 started 749 finished PID[34680]
+Job 760 PID[34845] of 1638 started 751 finished PID[34710]
+Job 761 PID[34860] of 1638 started 750 finished PID[34695]
+Job 762 PID[34875] of 1638 started 752 finished PID[34725]
+Job 763 PID[34890] of 1638 started 753 finished PID[34740]
+Job 764 PID[34905] of 1638 started 754 finished PID[34755]
+Job 765 PID[34920] of 1638 started 755 finished PID[34770]
+Job 766 PID[34935] of 1638 started 757 finished PID[34800]
+Job 767 PID[34950] of 1638 started 758 finished PID[34815]
+Job 768 PID[34965] of 1638 started 756 finished PID[34785]
+Job 769 PID[34980] of 1638 started 762 finished PID[34875]
+Job 770 PID[34995] of 1638 started 761 finished PID[34860]
+Job 771 PID[35010] of 1638 started 759 finished PID[34830]
+Job 772 PID[35025] of 1638 started 760 finished PID[34845]
+Job 773 PID[35040] of 1638 started 763 finished PID[34890]
+Job 774 PID[35055] of 1638 started 764 finished PID[34905]
+Job 775 PID[35070] of 1638 started 765 finished PID[34920]
+Job 776 PID[35085] of 1638 started 766 finished PID[34935]
+Job 777 PID[35100] of 1638 started 768 finished PID[34965]
+Job 778 PID[35115] of 1638 started 767 finished PID[34950]
+Job 779 PID[35130] of 1638 started 769 finished PID[34980]
+Job 780 PID[35146] of 1638 started 772 finished PID[35025]
+Job 781 PID[35161] of 1638 started 771 finished PID[35010]
+Job 782 PID[35176] of 1638 started 770 finished PID[34995]
+Job 783 PID[35191] of 1638 started 775 finished PID[35070]
+Job 784 PID[35206] of 1638 started 776 finished PID[35085]
+Job 785 PID[35221] of 1638 started 773 finished PID[35040]
+Job 786 PID[35236] of 1638 started 774 finished PID[35055]
+Job 787 PID[35251] of 1638 started 777 finished PID[35100]
+Job 788 PID[35266] of 1638 started 778 finished PID[35115]
+Job 789 PID[35281] of 1638 started 779 finished PID[35130]
+Job 790 PID[35296] of 1638 started 782 finished PID[35176]
+Job 791 PID[35311] of 1638 started 780 finished PID[35146]
+Job 792 PID[35326] of 1638 started 781 finished PID[35161]
+Job 793 PID[35341] of 1638 started 783 finished PID[35191]
+Job 794 PID[35356] of 1638 started 787 finished PID[35251]
+Job 795 PID[35371] of 1638 started 784 finished PID[35206]
+Job 796 PID[35386] of 1638 started 785 finished PID[35221]
+Job 797 PID[35401] of 1638 started 786 finished PID[35236]
+Job 798 PID[35416] of 1638 started 788 finished PID[35266]
+Job 799 PID[35431] of 1638 started 789 finished PID[35281]
+Job 800 PID[35446] of 1638 started 790 finished PID[35296]
+Job 801 PID[35461] of 1638 started 793 finished PID[35341]
+Job 802 PID[35476] of 1638 started 795 finished PID[35371]
+Job 803 PID[35491] of 1638 started 794 finished PID[35356]
+Job 804 PID[35506] of 1638 started 791 finished PID[35311]
+Job 805 PID[35521] of 1638 started 792 finished PID[35326]
+Job 806 PID[35537] of 1638 started 796 finished PID[35386]
+Job 807 PID[35552] of 1638 started 799 finished PID[35431]
+Job 808 PID[35567] of 1638 started 798 finished PID[35416]
+Job 809 PID[35582] of 1638 started 797 finished PID[35401]
+Job 810 PID[35597] of 1638 started 804 finished PID[35506]
+Job 811 PID[35612] of 1638 started 802 finished PID[35476]
+Job 812 PID[35627] of 1638 started 801 finished PID[35461]
+Job 813 PID[35642] of 1638 started 805 finished PID[35521]
+Job 814 PID[35658] of 1638 started 800 finished PID[35446]
+Job 815 PID[35673] of 1638 started 803 finished PID[35491]
+Job 816 PID[35688] of 1638 started 806 finished PID[35537]
+Job 817 PID[35703] of 1638 started 808 finished PID[35567]
+Job 818 PID[35718] of 1638 started 807 finished PID[35552]
+Job 819 PID[35733] of 1638 started 810 finished PID[35597]
+Job 820 PID[35748] of 1638 started 812 finished PID[35627]
+Job 821 PID[35763] of 1638 started 811 finished PID[35612]
+Job 822 PID[35778] of 1638 started 815 finished PID[35673]
+Job 823 PID[35793] of 1638 started 814 finished PID[35658]
+Job 824 PID[35808] of 1638 started 809 finished PID[35582]
+Job 825 PID[35823] of 1638 started 813 finished PID[35642]
+Job 826 PID[35838] of 1638 started 816 finished PID[35688]
+Job 827 PID[35853] of 1638 started 820 finished PID[35748]
+Job 828 PID[35868] of 1638 started 818 finished PID[35718]
+Job 829 PID[35883] of 1638 started 819 finished PID[35733]
+Job 830 PID[35898] of 1638 started 822 finished PID[35778]
+Job 831 PID[35913] of 1638 started 821 finished PID[35763]
+Job 832 PID[35928] of 1638 started 817 finished PID[35703]
+Job 833 PID[35943] of 1638 started 824 finished PID[35808]
+Job 834 PID[35958] of 1638 started 823 finished PID[35793]
+Job 835 PID[35973] of 1638 started 825 finished PID[35823]
+Job 836 PID[35988] of 1638 started 826 finished PID[35838]
+Job 837 PID[36004] of 1638 started 828 finished PID[35868]
+Job 838 PID[36019] of 1638 started 832 finished PID[35928]
+Job 839 PID[36034] of 1638 started 827 finished PID[35853]
+Job 840 PID[36049] of 1638 started 830 finished PID[35898]
+Job 841 PID[36064] of 1638 started 831 finished PID[35913]
+Job 842 PID[36079] of 1638 started 829 finished PID[35883]
+Job 843 PID[36094] of 1638 started 833 finished PID[35943]
+Job 844 PID[36109] of 1638 started 836 finished PID[35988]
+Job 845 PID[36125] of 1638 started 835 finished PID[35973]
+Job 846 PID[36140] of 1638 started 837 finished PID[36004]
+Job 847 PID[36155] of 1638 started 834 finished PID[35958]
+Job 848 PID[36170] of 1638 started 839 finished PID[36034]
+Job 849 PID[36185] of 1638 started 838 finished PID[36019]
+Job 850 PID[36200] of 1638 started 841 finished PID[36064]
+Job 851 PID[36215] of 1638 started 840 finished PID[36049]
+Job 852 PID[36230] of 1638 started 842 finished PID[36079]
+Job 853 PID[36245] of 1638 started 843 finished PID[36094]
+Job 854 PID[36260] of 1638 started 845 finished PID[36125]
+Job 855 PID[36275] of 1638 started 846 finished PID[36140]
+Job 856 PID[36290] of 1638 started 847 finished PID[36155]
+Job 857 PID[36305] of 1638 started 844 finished PID[36109]
+Job 858 PID[36320] of 1638 started 851 finished PID[36215]
+Job 859 PID[36335] of 1638 started 848 finished PID[36170]
+Job 860 PID[36350] of 1638 started 850 finished PID[36200]
+Job 861 PID[36365] of 1638 started 849 finished PID[36185]
+Job 862 PID[36380] of 1638 started 852 finished PID[36230]
+Job 863 PID[36395] of 1638 started 853 finished PID[36245]
+Job 864 PID[36410] of 1638 started 854 finished PID[36260]
+Job 865 PID[36425] of 1638 started 858 finished PID[36320]
+Job 866 PID[36440] of 1638 started 856 finished PID[36290]
+Job 867 PID[36455] of 1638 started 857 finished PID[36305]
+Job 868 PID[36470] of 1638 started 855 finished PID[36275]
+Job 869 PID[36485] of 1638 started 859 finished PID[36335]
+Job 870 PID[36500] of 1638 started 860 finished PID[36350]
+Job 871 PID[36515] of 1638 started 861 finished PID[36365]
+Job 872 PID[36530] of 1638 started 863 finished PID[36395]
+Job 873 PID[36545] of 1638 started 864 finished PID[36410]
+Job 874 PID[36560] of 1638 started 862 finished PID[36380]
+Job 875 PID[36575] of 1638 started 865 finished PID[36425]
+Job 876 PID[36590] of 1638 started 866 finished PID[36440]
+Job 877 PID[36605] of 1638 started 868 finished PID[36470]
+Job 878 PID[36620] of 1638 started 867 finished PID[36455]
+Job 879 PID[36637] of 1638 started 870 finished PID[36500]
+Job 880 PID[36652] of 1638 started 869 finished PID[36485]
+Job 881 PID[36667] of 1638 started 872 finished PID[36530]
+Job 882 PID[36682] of 1638 started 871 finished PID[36515]
+Job 883 PID[36697] of 1638 started 873 finished PID[36545]
+Job 884 PID[36712] of 1638 started 874 finished PID[36560]
+Job 885 PID[36727] of 1638 started 876 finished PID[36590]
+Job 886 PID[36742] of 1638 started 878 finished PID[36620]
+Job 887 PID[36757] of 1638 started 875 finished PID[36575]
+Job 888 PID[36772] of 1638 started 879 finished PID[36637]
+Job 889 PID[36787] of 1638 started 881 finished PID[36667]
+Job 890 PID[36802] of 1638 started 877 finished PID[36605]
+Job 891 PID[36817] of 1638 started 880 finished PID[36652]
+Job 892 PID[36832] of 1638 started 882 finished PID[36682]
+Job 893 PID[36848] of 1638 started 883 finished PID[36697]
+Job 894 PID[36863] of 1638 started 885 finished PID[36727]
+Job 895 PID[36878] of 1638 started 884 finished PID[36712]
+Job 896 PID[36893] of 1638 started 886 finished PID[36742]
+Job 897 PID[36908] of 1638 started 887 finished PID[36757]
+Job 898 PID[36923] of 1638 started 891 finished PID[36817]
+Job 899 PID[36938] of 1638 started 890 finished PID[36802]
+Job 900 PID[36953] of 1638 started 888 finished PID[36772]
+Job 901 PID[36968] of 1638 started 889 finished PID[36787]
+Job 902 PID[36989] of 1638 started 894 finished PID[36863]
+Job 903 PID[37004] of 1638 started 895 finished PID[36878]
+Job 904 PID[37021] of 1638 started 893 finished PID[36848]
+Job 905 PID[37035] of 1638 started 892 finished PID[36832]
+Job 906 PID[37051] of 1638 started 897 finished PID[36908]
+Job 907 PID[37066] of 1638 started 896 finished PID[36893]
+Job 908 PID[37081] of 1638 started 899 finished PID[36938]
+Job 909 PID[37096] of 1638 started 898 finished PID[36923]
+Job 910 PID[37111] of 1638 started 900 finished PID[36953]
+Job 911 PID[37126] of 1638 started 901 finished PID[36968]
+Job 912 PID[37146] of 1638 started 902 finished PID[36989]
+Job 913 PID[37161] of 1638 started 905 finished PID[37035]
+Job 914 PID[37176] of 1638 started 906 finished PID[37051]
+Job 915 PID[37193] of 1638 started 904 finished PID[37021]
+Job 916 PID[37208] of 1638 started 903 finished PID[37004]
+Job 917 PID[37223] of 1638 started 907 finished PID[37066]
+Job 918 PID[37242] of 1638 started 910 finished PID[37111]
+Job 919 PID[37265] of 1638 started 909 finished PID[37096]
+Job 920 PID[37280] of 1638 started 911 finished PID[37126]
+Job 921 PID[37295] of 1638 started 908 finished PID[37081]
+Job 922 PID[37310] of 1638 started 912 finished PID[37146]
+Job 923 PID[37325] of 1638 started 914 finished PID[37176]
+Job 924 PID[37340] of 1638 started 917 finished PID[37223]
+Job 925 PID[37355] of 1638 started 915 finished PID[37193]
+Job 926 PID[37369] of 1638 started 916 finished PID[37208]
+Job 927 PID[37385] of 1638 started 913 finished PID[37161]
+Job 928 PID[37403] of 1638 started 918 finished PID[37242]
+Job 929 PID[37418] of 1638 started 920 finished PID[37280]
+Job 930 PID[37433] of 1638 started 919 finished PID[37265]
+Job 931 PID[37448] of 1638 started 921 finished PID[37295]
+Job 932 PID[37471] of 1638 started 922 finished PID[37310]
+Job 933 PID[37486] of 1638 started 924 finished PID[37340]
+Job 934 PID[37501] of 1638 started 925 finished PID[37355]
+Job 935 PID[37516] of 1638 started 923 finished PID[37325]
+Job 936 PID[37531] of 1638 started 927 finished PID[37385]
+Job 937 PID[37546] of 1638 started 928 finished PID[37403]
+Job 938 PID[37561] of 1638 started 926 finished PID[37369]
+Job 939 PID[37576] of 1638 started 931 finished PID[37448]
+Job 940 PID[37591] of 1638 started 929 finished PID[37418]
+Job 941 PID[37606] of 1638 started 930 finished PID[37433]
+Job 942 PID[37626] of 1638 started 932 finished PID[37471]
+Job 943 PID[37641] of 1638 started 933 finished PID[37486]
+Job 944 PID[37656] of 1638 started 934 finished PID[37501]
+Job 945 PID[37671] of 1638 started 935 finished PID[37516]
+Job 946 PID[37686] of 1638 started 936 finished PID[37531]
+Job 947 PID[37701] of 1638 started 938 finished PID[37561]
+Job 948 PID[37716] of 1638 started 939 finished PID[37576]
+Job 949 PID[37731] of 1638 started 937 finished PID[37546]
+Job 950 PID[37746] of 1638 started 941 finished PID[37606]
+Job 951 PID[37762] of 1638 started 940 finished PID[37591]
+Job 952 PID[37778] of 1638 started 942 finished PID[37626]
+Job 953 PID[37793] of 1638 started 943 finished PID[37641]
+Job 954 PID[37808] of 1638 started 944 finished PID[37656]
+Job 955 PID[37823] of 1638 started 945 finished PID[37671]
+Job 956 PID[37838] of 1638 started 946 finished PID[37686]
+Job 957 PID[37853] of 1638 started 949 finished PID[37731]
+Job 958 PID[37868] of 1638 started 947 finished PID[37701]
+Job 959 PID[37883] of 1638 started 948 finished PID[37716]
+Job 960 PID[37898] of 1638 started 951 finished PID[37762]
+Job 961 PID[37913] of 1638 started 950 finished PID[37746]
+Job 962 PID[37928] of 1638 started 952 finished PID[37778]
+Job 963 PID[37943] of 1638 started 954 finished PID[37808]
+Job 964 PID[37958] of 1638 started 956 finished PID[37838]
+Job 965 PID[37976] of 1638 started 953 finished PID[37793]
+Job 966 PID[37991] of 1638 started 955 finished PID[37823]
+Job 967 PID[38012] of 1638 started 957 finished PID[37853]
+Job 968 PID[38027] of 1638 started 959 finished PID[37883]
+Job 969 PID[38042] of 1638 started 960 finished PID[37898]
+Job 970 PID[38057] of 1638 started 961 finished PID[37913]
+Job 971 PID[38073] of 1638 started 958 finished PID[37868]
+Job 972 PID[38088] of 1638 started 963 finished PID[37943]
+Job 973 PID[38103] of 1638 started 962 finished PID[37928]
+Job 974 PID[38119] of 1638 started 965 finished PID[37976]
+Job 975 PID[38134] of 1638 started 964 finished PID[37958]
+Job 976 PID[38149] of 1638 started 968 finished PID[38027]
+Job 977 PID[38164] of 1638 started 967 finished PID[38012]
+Job 978 PID[38179] of 1638 started 970 finished PID[38057]
+Job 979 PID[38194] of 1638 started 966 finished PID[37991]
+Job 980 PID[38209] of 1638 started 971 finished PID[38073]
+Job 981 PID[38224] of 1638 started 974 finished PID[38119]
+Job 982 PID[38239] of 1638 started 969 finished PID[38042]
+Job 983 PID[38254] of 1638 started 973 finished PID[38103]
+Job 984 PID[38269] of 1638 started 972 finished PID[38088]
+Job 985 PID[38284] of 1638 started 975 finished PID[38134]
+Job 986 PID[38299] of 1638 started 977 finished PID[38164]
+Job 987 PID[38314] of 1638 started 979 finished PID[38194]
+Job 988 PID[38329] of 1638 started 976 finished PID[38149]
+Job 989 PID[38344] of 1638 started 980 finished PID[38209]
+Job 990 PID[38359] of 1638 started 981 finished PID[38224]
+Job 991 PID[38374] of 1638 started 978 finished PID[38179]
+Job 992 PID[38389] of 1638 started 982 finished PID[38239]
+Job 993 PID[38404] of 1638 started 983 finished PID[38254]
+Job 994 PID[38419] of 1638 started 984 finished PID[38269]
+Job 995 PID[38434] of 1638 started 985 finished PID[38284]
+Job 996 PID[38449] of 1638 started 987 finished PID[38314]
+Job 997 PID[38464] of 1638 started 986 finished PID[38299]
+Job 998 PID[38479] of 1638 started 990 finished PID[38359]
+Job 999 PID[38494] of 1638 started 989 finished PID[38344]
+Job 1000 PID[38509] of 1638 started 988 finished PID[38329]
+Job 1001 PID[38524] of 1638 started 991 finished PID[38374]
+Job 1002 PID[38539] of 1638 started 995 finished PID[38434]
+Job 1003 PID[38554] of 1638 started 992 finished PID[38389]
+Job 1004 PID[38569] of 1638 started 993 finished PID[38404]
+Job 1005 PID[38584] of 1638 started 994 finished PID[38419]
+Job 1006 PID[38599] of 1638 started 998 finished PID[38479]
+Job 1007 PID[38614] of 1638 started 996 finished PID[38449]
+Job 1008 PID[38629] of 1638 started 999 finished PID[38494]
+Job 1009 PID[38644] of 1638 started 1000 finished PID[38509]
+Job 1010 PID[38659] of 1638 started 997 finished PID[38464]
+Job 1011 PID[38674] of 1638 started 1001 finished PID[38524]
+Job 1012 PID[38689] of 1638 started 1002 finished PID[38539]
+Job 1013 PID[38704] of 1638 started 1004 finished PID[38569]
+Job 1014 PID[38720] of 1638 started 1003 finished PID[38554]
+Job 1015 PID[38735] of 1638 started 1005 finished PID[38584]
+Job 1016 PID[38750] of 1638 started 1006 finished PID[38599]
+Job 1017 PID[38765] of 1638 started 1007 finished PID[38614]
+Job 1018 PID[38780] of 1638 started 1010 finished PID[38659]
+Job 1019 PID[38795] of 1638 started 1009 finished PID[38644]
+Job 1020 PID[38810] of 1638 started 1008 finished PID[38629]
+Job 1021 PID[38825] of 1638 started 1012 finished PID[38689]
+Job 1022 PID[38840] of 1638 started 1011 finished PID[38674]
+Job 1023 PID[38855] of 1638 started 1014 finished PID[38720]
+Job 1024 PID[38870] of 1638 started 1013 finished PID[38704]
+Job 1025 PID[38885] of 1638 started 1016 finished PID[38750]
+Job 1026 PID[38900] of 1638 started 1015 finished PID[38735]
+Job 1027 PID[38915] of 1638 started 1017 finished PID[38765]
+Job 1028 PID[38930] of 1638 started 1020 finished PID[38810]
+Job 1029 PID[38945] of 1638 started 1018 finished PID[38780]
+Job 1030 PID[38960] of 1638 started 1019 finished PID[38795]
+Job 1031 PID[38975] of 1638 started 1021 finished PID[38825]
+Job 1032 PID[38990] of 1638 started 1022 finished PID[38840]
+Job 1033 PID[39005] of 1638 started 1024 finished PID[38870]
+Job 1034 PID[39020] of 1638 started 1023 finished PID[38855]
+Job 1035 PID[39035] of 1638 started 1025 finished PID[38885]
+Job 1036 PID[39050] of 1638 started 1028 finished PID[38930]
+Job 1037 PID[39065] of 1638 started 1026 finished PID[38900]
+Job 1038 PID[39080] of 1638 started 1027 finished PID[38915]
+Job 1039 PID[39095] of 1638 started 1029 finished PID[38945]
+Job 1040 PID[39110] of 1638 started 1032 finished PID[38990]
+Job 1041 PID[39125] of 1638 started 1030 finished PID[38960]
+Job 1042 PID[39140] of 1638 started 1031 finished PID[38975]
+Job 1043 PID[39155] of 1638 started 1033 finished PID[39005]
+Job 1044 PID[39170] of 1638 started 1034 finished PID[39020]
+Job 1045 PID[39187] of 1638 started 1035 finished PID[39035]
+Job 1046 PID[39202] of 1638 started 1036 finished PID[39050]
+Job 1047 PID[39217] of 1638 started 1037 finished PID[39065]
+Job 1048 PID[39232] of 1638 started 1038 finished PID[39080]
+Job 1049 PID[39247] of 1638 started 1041 finished PID[39125]
+Job 1050 PID[39262] of 1638 started 1039 finished PID[39095]
+Job 1051 PID[39277] of 1638 started 1040 finished PID[39110]
+Job 1052 PID[39292] of 1638 started 1042 finished PID[39140]
+Job 1053 PID[39307] of 1638 started 1043 finished PID[39155]
+Job 1054 PID[39322] of 1638 started 1044 finished PID[39170]
+Job 1055 PID[39337] of 1638 started 1047 finished PID[39217]
+Job 1056 PID[39352] of 1638 started 1046 finished PID[39202]
+Job 1057 PID[39367] of 1638 started 1045 finished PID[39187]
+Job 1058 PID[39382] of 1638 started 1048 finished PID[39232]
+Job 1059 PID[39397] of 1638 started 1051 finished PID[39277]
+Job 1060 PID[39412] of 1638 started 1050 finished PID[39262]
+Job 1061 PID[39427] of 1638 started 1049 finished PID[39247]
+Job 1062 PID[39442] of 1638 started 1054 finished PID[39322]
+Job 1063 PID[39457] of 1638 started 1052 finished PID[39292]
+Job 1064 PID[39472] of 1638 started 1053 finished PID[39307]
+Job 1065 PID[39487] of 1638 started 1055 finished PID[39337]
+Job 1066 PID[39502] of 1638 started 1057 finished PID[39367]
+Job 1067 PID[39517] of 1638 started 1056 finished PID[39352]
+Job 1068 PID[39538] of 1638 started 1058 finished PID[39382]
+Job 1069 PID[39555] of 1638 started 1059 finished PID[39397]
+Job 1070 PID[39570] of 1638 started 1060 finished PID[39412]
+Job 1071 PID[39585] of 1638 started 1061 finished PID[39427]
+Job 1072 PID[39600] of 1638 started 1064 finished PID[39472]
+Job 1073 PID[39615] of 1638 started 1063 finished PID[39457]
+Job 1074 PID[39630] of 1638 started 1062 finished PID[39442]
+Job 1075 PID[39645] of 1638 started 1067 finished PID[39517]
+Job 1076 PID[39660] of 1638 started 1066 finished PID[39502]
+Job 1077 PID[39675] of 1638 started 1065 finished PID[39487]
+Job 1078 PID[39690] of 1638 started 1068 finished PID[39538]
+Job 1079 PID[39705] of 1638 started 1070 finished PID[39570]
+Job 1080 PID[39720] of 1638 started 1072 finished PID[39600]
+Job 1081 PID[39735] of 1638 started 1069 finished PID[39555]
+Job 1082 PID[39750] of 1638 started 1071 finished PID[39585]
+Job 1083 PID[39765] of 1638 started 1074 finished PID[39630]
+Job 1084 PID[39780] of 1638 started 1073 finished PID[39615]
+Job 1085 PID[39795] of 1638 started 1076 finished PID[39660]
+Job 1086 PID[39810] of 1638 started 1075 finished PID[39645]
+Job 1087 PID[39825] of 1638 started 1077 finished PID[39675]
+Job 1088 PID[39840] of 1638 started 1078 finished PID[39690]
+Job 1089 PID[39855] of 1638 started 1079 finished PID[39705]
+Job 1090 PID[39870] of 1638 started 1082 finished PID[39750]
+Job 1091 PID[39885] of 1638 started 1081 finished PID[39735]
+Job 1092 PID[39900] of 1638 started 1080 finished PID[39720]
+Job 1093 PID[39915] of 1638 started 1083 finished PID[39765]
+Job 1094 PID[39930] of 1638 started 1084 finished PID[39780]
+Job 1095 PID[39945] of 1638 started 1085 finished PID[39795]
+Job 1096 PID[39960] of 1638 started 1086 finished PID[39810]
+Job 1097 PID[39975] of 1638 started 1087 finished PID[39825]
+Job 1098 PID[39990] of 1638 started 1089 finished PID[39855]
+Job 1099 PID[40005] of 1638 started 1088 finished PID[39840]
+Job 1100 PID[40020] of 1638 started 1090 finished PID[39870]
+Job 1101 PID[40035] of 1638 started 1091 finished PID[39885]
+Job 1102 PID[40050] of 1638 started 1096 finished PID[39960]
+Job 1103 PID[40065] of 1638 started 1093 finished PID[39915]
+Job 1104 PID[40080] of 1638 started 1092 finished PID[39900]
+Job 1105 PID[40095] of 1638 started 1095 finished PID[39945]
+Job 1106 PID[40110] of 1638 started 1094 finished PID[39930]
+Job 1107 PID[40133] of 1638 started 1097 finished PID[39975]
+Job 1108 PID[40148] of 1638 started 1099 finished PID[40005]
+Job 1109 PID[40162] of 1638 started 1098 finished PID[39990]
+Job 1110 PID[40178] of 1638 started 1100 finished PID[40020]
+Job 1111 PID[40193] of 1638 started 1101 finished PID[40035]
+Job 1112 PID[40208] of 1638 started 1103 finished PID[40065]
+Job 1113 PID[40223] of 1638 started 1105 finished PID[40095]
+Job 1114 PID[40238] of 1638 started 1104 finished PID[40080]
+Job 1115 PID[40253] of 1638 started 1106 finished PID[40110]
+Job 1116 PID[40268] of 1638 started 1102 finished PID[40050]
+Job 1117 PID[40283] of 1638 started 1107 finished PID[40133]
+Job 1118 PID[40298] of 1638 started 1108 finished PID[40148]
+Job 1119 PID[40313] of 1638 started 1109 finished PID[40162]
+Job 1120 PID[40328] of 1638 started 1110 finished PID[40178]
+Job 1121 PID[40343] of 1638 started 1113 finished PID[40223]
+Job 1122 PID[40361] of 1638 started 1112 finished PID[40208]
+Job 1123 PID[40376] of 1638 started 1111 finished PID[40193]
+Job 1124 PID[40391] of 1638 started 1114 finished PID[40238]
+Job 1125 PID[40406] of 1638 started 1115 finished PID[40253]
+Job 1126 PID[40421] of 1638 started 1116 finished PID[40268]
+Job 1127 PID[40436] of 1638 started 1117 finished PID[40283]
+Job 1128 PID[40451] of 1638 started 1119 finished PID[40313]
+Job 1129 PID[40466] of 1638 started 1120 finished PID[40328]
+Job 1130 PID[40481] of 1638 started 1118 finished PID[40298]
+Job 1131 PID[40496] of 1638 started 1121 finished PID[40343]
+Job 1132 PID[40511] of 1638 started 1122 finished PID[40361]
+Job 1133 PID[40526] of 1638 started 1123 finished PID[40376]
+Job 1134 PID[40541] of 1638 started 1124 finished PID[40391]
+Job 1135 PID[40556] of 1638 started 1126 finished PID[40421]
+Job 1136 PID[40571] of 1638 started 1125 finished PID[40406]
+Job 1137 PID[40586] of 1638 started 1127 finished PID[40436]
+Job 1138 PID[40601] of 1638 started 1128 finished PID[40451]
+Job 1139 PID[40616] of 1638 started 1129 finished PID[40466]
+Job 1140 PID[40631] of 1638 started 1131 finished PID[40496]
+Job 1141 PID[40646] of 1638 started 1130 finished PID[40481]
+Job 1142 PID[40661] of 1638 started 1136 finished PID[40571]
+Job 1143 PID[40676] of 1638 started 1132 finished PID[40511]
+Job 1144 PID[40691] of 1638 started 1133 finished PID[40526]
+Job 1145 PID[40706] of 1638 started 1135 finished PID[40556]
+Job 1146 PID[40721] of 1638 started 1134 finished PID[40541]
+Job 1147 PID[40736] of 1638 started 1137 finished PID[40586]
+Job 1148 PID[40751] of 1638 started 1139 finished PID[40616]
+Job 1149 PID[40766] of 1638 started 1138 finished PID[40601]
+Job 1150 PID[40783] of 1638 started 1140 finished PID[40631]
+Job 1151 PID[40798] of 1638 started 1142 finished PID[40661]
+Job 1152 PID[40813] of 1638 started 1143 finished PID[40676]
+Job 1153 PID[40828] of 1638 started 1141 finished PID[40646]
+Job 1154 PID[40843] of 1638 started 1144 finished PID[40691]
+Job 1155 PID[40858] of 1638 started 1145 finished PID[40706]
+Job 1156 PID[40873] of 1638 started 1146 finished PID[40721]
+Job 1157 PID[40888] of 1638 started 1147 finished PID[40736]
+Job 1158 PID[40904] of 1638 started 1148 finished PID[40751]
+Job 1159 PID[40919] of 1638 started 1149 finished PID[40766]
+Job 1160 PID[40934] of 1638 started 1150 finished PID[40783]
+Job 1161 PID[40949] of 1638 started 1155 finished PID[40858]
+Job 1162 PID[40964] of 1638 started 1151 finished PID[40798]
+Job 1163 PID[40979] of 1638 started 1152 finished PID[40813]
+Job 1164 PID[40994] of 1638 started 1153 finished PID[40828]
+Job 1165 PID[41009] of 1638 started 1154 finished PID[40843]
+Job 1166 PID[41024] of 1638 started 1156 finished PID[40873]
+Job 1167 PID[41039] of 1638 started 1157 finished PID[40888]
+Job 1168 PID[41057] of 1638 started 1159 finished PID[40919]
+Job 1169 PID[41072] of 1638 started 1158 finished PID[40904]
+Job 1170 PID[41089] of 1638 started 1162 finished PID[40964]
+Job 1171 PID[41104] of 1638 started 1160 finished PID[40934]
+Job 1172 PID[41119] of 1638 started 1164 finished PID[40994]
+Job 1173 PID[41134] of 1638 started 1161 finished PID[40949]
+Job 1174 PID[41149] of 1638 started 1163 finished PID[40979]
+Job 1175 PID[41164] of 1638 started 1165 finished PID[41009]
+Job 1176 PID[41183] of 1638 started 1166 finished PID[41024]
+Job 1177 PID[41204] of 1638 started 1168 finished PID[41057]
+Job 1178 PID[41219] of 1638 started 1167 finished PID[41039]
+Job 1179 PID[41234] of 1638 started 1169 finished PID[41072]
+Job 1180 PID[41249] of 1638 started 1170 finished PID[41089]
+Job 1181 PID[41264] of 1638 started 1173 finished PID[41134]
+Job 1182 PID[41279] of 1638 started 1172 finished PID[41119]
+Job 1183 PID[41294] of 1638 started 1174 finished PID[41149]
+Job 1184 PID[41309] of 1638 started 1171 finished PID[41104]
+Job 1185 PID[41324] of 1638 started 1176 finished PID[41183]
+Job 1186 PID[41339] of 1638 started 1175 finished PID[41164]
+Job 1187 PID[41364] of 1638 started 1177 finished PID[41204]
+Job 1188 PID[41379] of 1638 started 1178 finished PID[41219]
+Job 1189 PID[41416] of 1638 started 1181 finished PID[41264]
+Job 1190 PID[41445] of 1638 started 1182 finished PID[41279]
+Job 1191 PID[41461] of 1638 started 1179 finished PID[41234]
+Job 1192 PID[41476] of 1638 started 1180 finished PID[41249]
+Job 1193 PID[41493] of 1638 started 1183 finished PID[41294]
+Job 1194 PID[41513] of 1638 started 1184 finished PID[41309]
+Job 1195 PID[41528] of 1638 started 1185 finished PID[41324]
+Job 1196 PID[41543] of 1638 started 1187 finished PID[41364]
+Job 1197 PID[41558] of 1638 started 1186 finished PID[41339]
+Job 1198 PID[41573] of 1638 started 1188 finished PID[41379]
+Job 1199 PID[41588] of 1638 started 1192 finished PID[41476]
+Job 1200 PID[41603] of 1638 started 1190 finished PID[41445]
+Job 1201 PID[41618] of 1638 started 1189 finished PID[41416]
+Job 1202 PID[41633] of 1638 started 1191 finished PID[41461]
+Job 1203 PID[41648] of 1638 started 1193 finished PID[41493]
+Job 1204 PID[41663] of 1638 started 1194 finished PID[41513]
+Job 1205 PID[41678] of 1638 started 1195 finished PID[41528]
+Job 1206 PID[41693] of 1638 started 1197 finished PID[41558]
+Job 1207 PID[41708] of 1638 started 1196 finished PID[41543]
+Job 1208 PID[41723] of 1638 started 1198 finished PID[41573]
+Job 1209 PID[41738] of 1638 started 1199 finished PID[41588]
+Job 1210 PID[41754] of 1638 started 1204 finished PID[41663]
+Job 1211 PID[41769] of 1638 started 1201 finished PID[41618]
+Job 1212 PID[41784] of 1638 started 1203 finished PID[41648]
+Job 1213 PID[41799] of 1638 started 1206 finished PID[41693]
+Job 1214 PID[41814] of 1638 started 1200 finished PID[41603]
+Job 1215 PID[41829] of 1638 started 1202 finished PID[41633]
+Job 1216 PID[41844] of 1638 started 1205 finished PID[41678]
+Job 1217 PID[41859] of 1638 started 1207 finished PID[41708]
+Job 1218 PID[41876] of 1638 started 1208 finished PID[41723]
+Job 1219 PID[41891] of 1638 started 1211 finished PID[41769]
+Job 1220 PID[41906] of 1638 started 1210 finished PID[41754]
+Job 1221 PID[41921] of 1638 started 1212 finished PID[41784]
+Job 1222 PID[41936] of 1638 started 1209 finished PID[41738]
+Job 1223 PID[41952] of 1638 started 1213 finished PID[41799]
+Job 1224 PID[41967] of 1638 started 1214 finished PID[41814]
+Job 1225 PID[41982] of 1638 started 1216 finished PID[41844]
+Job 1226 PID[41997] of 1638 started 1217 finished PID[41859]
+Job 1227 PID[42012] of 1638 started 1215 finished PID[41829]
+Job 1228 PID[42027] of 1638 started 1218 finished PID[41876]
+Job 1229 PID[42042] of 1638 started 1220 finished PID[41906]
+Job 1230 PID[42057] of 1638 started 1219 finished PID[41891]
+Job 1231 PID[42072] of 1638 started 1223 finished PID[41952]
+Job 1232 PID[42087] of 1638 started 1222 finished PID[41936]
+Job 1233 PID[42102] of 1638 started 1224 finished PID[41967]
+Job 1234 PID[42117] of 1638 started 1221 finished PID[41921]
+Job 1235 PID[42132] of 1638 started 1225 finished PID[41982]
+Job 1236 PID[42153] of 1638 started 1226 finished PID[41997]
+Job 1237 PID[42170] of 1638 started 1227 finished PID[42012]
+Job 1238 PID[42187] of 1638 started 1228 finished PID[42027]
+Job 1239 PID[42202] of 1638 started 1229 finished PID[42042]
+Job 1240 PID[42217] of 1638 started 1231 finished PID[42072]
+Job 1241 PID[42232] of 1638 started 1230 finished PID[42057]
+Job 1242 PID[42247] of 1638 started 1232 finished PID[42087]
+Job 1243 PID[42262] of 1638 started 1233 finished PID[42102]
+Job 1244 PID[42277] of 1638 started 1235 finished PID[42132]
+Job 1245 PID[42292] of 1638 started 1234 finished PID[42117]
+Job 1246 PID[42307] of 1638 started 1236 finished PID[42153]
+Job 1247 PID[42322] of 1638 started 1237 finished PID[42170]
+Job 1248 PID[42337] of 1638 started 1238 finished PID[42187]
+Job 1249 PID[42352] of 1638 started 1240 finished PID[42217]
+Job 1250 PID[42367] of 1638 started 1239 finished PID[42202]
+Job 1251 PID[42382] of 1638 started 1241 finished PID[42232]
+Job 1252 PID[42399] of 1638 started 1244 finished PID[42277]
+Job 1253 PID[42417] of 1638 started 1242 finished PID[42247]
+Job 1254 PID[42432] of 1638 started 1246 finished PID[42307]
+Job 1255 PID[42448] of 1638 started 1245 finished PID[42292]
+Job 1256 PID[42463] of 1638 started 1243 finished PID[42262]
+Job 1257 PID[42478] of 1638 started 1248 finished PID[42337]
+Job 1258 PID[42493] of 1638 started 1247 finished PID[42322]
+Job 1259 PID[42508] of 1638 started 1250 finished PID[42367]
+Job 1260 PID[42523] of 1638 started 1249 finished PID[42352]
+Job 1261 PID[42538] of 1638 started 1251 finished PID[42382]
+Job 1262 PID[42553] of 1638 started 1253 finished PID[42417]
+Job 1263 PID[42568] of 1638 started 1252 finished PID[42399]
+Job 1264 PID[42583] of 1638 started 1254 finished PID[42432]
+Job 1265 PID[42598] of 1638 started 1255 finished PID[42448]
+Job 1266 PID[42613] of 1638 started 1257 finished PID[42478]
+Job 1267 PID[42628] of 1638 started 1256 finished PID[42463]
+Job 1268 PID[42643] of 1638 started 1259 finished PID[42508]
+Job 1269 PID[42658] of 1638 started 1258 finished PID[42493]
+Job 1270 PID[42673] of 1638 started 1261 finished PID[42538]
+Job 1271 PID[42688] of 1638 started 1260 finished PID[42523]
+Job 1272 PID[42703] of 1638 started 1263 finished PID[42568]
+Job 1273 PID[42718] of 1638 started 1262 finished PID[42553]
+Job 1274 PID[42733] of 1638 started 1265 finished PID[42598]
+Job 1275 PID[42748] of 1638 started 1264 finished PID[42583]
+Job 1276 PID[42763] of 1638 started 1267 finished PID[42628]
+Job 1277 PID[42778] of 1638 started 1266 finished PID[42613]
+Job 1278 PID[42793] of 1638 started 1268 finished PID[42643]
+Job 1279 PID[42813] of 1638 started 1269 finished PID[42658]
+Job 1280 PID[42828] of 1638 started 1271 finished PID[42688]
+Job 1281 PID[42843] of 1638 started 1270 finished PID[42673]
+Job 1282 PID[42858] of 1638 started 1272 finished PID[42703]
+Job 1283 PID[42873] of 1638 started 1273 finished PID[42718]
+Job 1284 PID[42888] of 1638 started 1274 finished PID[42733]
+Job 1285 PID[42903] of 1638 started 1275 finished PID[42748]
+Job 1286 PID[42918] of 1638 started 1278 finished PID[42793]
+Job 1287 PID[42933] of 1638 started 1277 finished PID[42778]
+Job 1288 PID[42948] of 1638 started 1276 finished PID[42763]
+Job 1289 PID[42963] of 1638 started 1279 finished PID[42813]
+Job 1290 PID[42978] of 1638 started 1281 finished PID[42843]
+Job 1291 PID[42993] of 1638 started 1280 finished PID[42828]
+Job 1292 PID[43008] of 1638 started 1283 finished PID[42873]
+Job 1293 PID[43023] of 1638 started 1282 finished PID[42858]
+Job 1294 PID[43038] of 1638 started 1284 finished PID[42888]
+Job 1295 PID[43053] of 1638 started 1286 finished PID[42918]
+Job 1296 PID[43068] of 1638 started 1287 finished PID[42933]
+Job 1297 PID[43083] of 1638 started 1285 finished PID[42903]
+Job 1298 PID[43098] of 1638 started 1288 finished PID[42948]
+Job 1299 PID[43113] of 1638 started 1289 finished PID[42963]
+Job 1300 PID[43128] of 1638 started 1290 finished PID[42978]
+Job 1301 PID[43143] of 1638 started 1291 finished PID[42993]
+Job 1302 PID[43158] of 1638 started 1293 finished PID[43023]
+Job 1303 PID[43173] of 1638 started 1292 finished PID[43008]
+Job 1304 PID[43188] of 1638 started 1294 finished PID[43038]
+Job 1305 PID[43203] of 1638 started 1297 finished PID[43083]
+Job 1306 PID[43218] of 1638 started 1296 finished PID[43068]
+Job 1307 PID[43233] of 1638 started 1295 finished PID[43053]
+Job 1308 PID[43248] of 1638 started 1298 finished PID[43098]
+Job 1309 PID[43263] of 1638 started 1299 finished PID[43113]
+Job 1310 PID[43278] of 1638 started 1300 finished PID[43128]
+Job 1311 PID[43293] of 1638 started 1301 finished PID[43143]
+Job 1312 PID[43308] of 1638 started 1302 finished PID[43158]
+Job 1313 PID[43323] of 1638 started 1303 finished PID[43173]
+Job 1314 PID[43338] of 1638 started 1304 finished PID[43188]
+Job 1315 PID[43353] of 1638 started 1306 finished PID[43218]
+Job 1316 PID[43368] of 1638 started 1305 finished PID[43203]
+Job 1317 PID[43383] of 1638 started 1307 finished PID[43233]
+Job 1318 PID[43398] of 1638 started 1308 finished PID[43248]
+Job 1319 PID[43413] of 1638 started 1309 finished PID[43263]
+Job 1320 PID[43428] of 1638 started 1310 finished PID[43278]
+Job 1321 PID[43443] of 1638 started 1311 finished PID[43293]
+Job 1322 PID[43458] of 1638 started 1312 finished PID[43308]
+Job 1323 PID[43473] of 1638 started 1314 finished PID[43338]
+Job 1324 PID[43488] of 1638 started 1313 finished PID[43323]
+Job 1325 PID[43504] of 1638 started 1315 finished PID[43353]
+Job 1326 PID[43519] of 1638 started 1316 finished PID[43368]
+Job 1327 PID[43534] of 1638 started 1317 finished PID[43383]
+Job 1328 PID[43549] of 1638 started 1318 finished PID[43398]
+Job 1329 PID[43564] of 1638 started 1321 finished PID[43443]
+Job 1330 PID[43579] of 1638 started 1320 finished PID[43428]
+Job 1331 PID[43594] of 1638 started 1319 finished PID[43413]
+Job 1332 PID[43609] of 1638 started 1322 finished PID[43458]
+Job 1333 PID[43629] of 1638 started 1325 finished PID[43504]
+Job 1334 PID[43644] of 1638 started 1324 finished PID[43488]
+Job 1335 PID[43659] of 1638 started 1323 finished PID[43473]
+Job 1336 PID[43680] of 1638 started 1327 finished PID[43534]
+Job 1337 PID[43695] of 1638 started 1328 finished PID[43549]
+Job 1338 PID[43710] of 1638 started 1326 finished PID[43519]
+Job 1339 PID[43725] of 1638 started 1331 finished PID[43594]
+Job 1340 PID[43740] of 1638 started 1330 finished PID[43579]
+Job 1341 PID[43755] of 1638 started 1329 finished PID[43564]
+Job 1342 PID[43770] of 1638 started 1334 finished PID[43644]
+Job 1343 PID[43785] of 1638 started 1332 finished PID[43609]
+Job 1344 PID[43800] of 1638 started 1333 finished PID[43629]
+Job 1345 PID[43815] of 1638 started 1335 finished PID[43659]
+Job 1346 PID[43831] of 1638 started 1338 finished PID[43710]
+Job 1347 PID[43846] of 1638 started 1336 finished PID[43680]
+Job 1348 PID[43861] of 1638 started 1337 finished PID[43695]
+Job 1349 PID[43876] of 1638 started 1340 finished PID[43740]
+Job 1350 PID[43891] of 1638 started 1341 finished PID[43755]
+Job 1351 PID[43906] of 1638 started 1339 finished PID[43725]
+Job 1352 PID[43921] of 1638 started 1342 finished PID[43770]
+Job 1353 PID[43936] of 1638 started 1345 finished PID[43815]
+Job 1354 PID[43951] of 1638 started 1343 finished PID[43785]
+Job 1355 PID[43966] of 1638 started 1346 finished PID[43831]
+Job 1356 PID[43982] of 1638 started 1344 finished PID[43800]
+Job 1357 PID[44000] of 1638 started 1347 finished PID[43846]
+Job 1358 PID[44022] of 1638 started 1348 finished PID[43861]
+Job 1359 PID[44038] of 1638 started 1349 finished PID[43876]
+Job 1360 PID[44053] of 1638 started 1351 finished PID[43906]
+Job 1361 PID[44068] of 1638 started 1350 finished PID[43891]
+Job 1362 PID[44083] of 1638 started 1353 finished PID[43936]
+Job 1363 PID[44098] of 1638 started 1352 finished PID[43921]
+Job 1364 PID[44113] of 1638 started 1354 finished PID[43951]
+Job 1365 PID[44128] of 1638 started 1355 finished PID[43966]
+Job 1366 PID[44143] of 1638 started 1356 finished PID[43982]
+Job 1367 PID[44158] of 1638 started 1357 finished PID[44000]
+Job 1368 PID[44173] of 1638 started 1359 finished PID[44038]
+Job 1369 PID[44188] of 1638 started 1358 finished PID[44022]
+Job 1370 PID[44204] of 1638 started 1360 finished PID[44053]
+Job 1371 PID[44219] of 1638 started 1361 finished PID[44068]
+Job 1372 PID[44234] of 1638 started 1362 finished PID[44083]
+Job 1373 PID[44249] of 1638 started 1363 finished PID[44098]
+Job 1374 PID[44264] of 1638 started 1364 finished PID[44113]
+Job 1375 PID[44279] of 1638 started 1365 finished PID[44128]
+Job 1376 PID[44295] of 1638 started 1366 finished PID[44143]
+Job 1377 PID[44310] of 1638 started 1368 finished PID[44173]
+Job 1378 PID[44325] of 1638 started 1367 finished PID[44158]
+Job 1379 PID[44340] of 1638 started 1370 finished PID[44204]
+Job 1380 PID[44355] of 1638 started 1369 finished PID[44188]
+Job 1381 PID[44370] of 1638 started 1372 finished PID[44234]
+Job 1382 PID[44385] of 1638 started 1371 finished PID[44219]
+Job 1383 PID[44400] of 1638 started 1373 finished PID[44249]
+Job 1384 PID[44415] of 1638 started 1374 finished PID[44264]
+Job 1385 PID[44431] of 1638 started 1375 finished PID[44279]
+Job 1386 PID[44446] of 1638 started 1376 finished PID[44295]
+Job 1387 PID[44461] of 1638 started 1377 finished PID[44310]
+Job 1388 PID[44476] of 1638 started 1379 finished PID[44340]
+Job 1389 PID[44491] of 1638 started 1378 finished PID[44325]
+Job 1390 PID[44506] of 1638 started 1380 finished PID[44355]
+Job 1391 PID[44521] of 1638 started 1381 finished PID[44370]
+Job 1392 PID[44536] of 1638 started 1382 finished PID[44385]
+Job 1393 PID[44551] of 1638 started 1383 finished PID[44400]
+Job 1394 PID[44567] of 1638 started 1384 finished PID[44415]
+Job 1395 PID[44582] of 1638 started 1385 finished PID[44431]
+Job 1396 PID[44597] of 1638 started 1389 finished PID[44491]
+Job 1397 PID[44612] of 1638 started 1386 finished PID[44446]
+Job 1398 PID[44627] of 1638 started 1387 finished PID[44461]
+Job 1399 PID[44642] of 1638 started 1388 finished PID[44476]
+Job 1400 PID[44657] of 1638 started 1393 finished PID[44551]
+Job 1401 PID[44672] of 1638 started 1392 finished PID[44536]
+Job 1402 PID[44687] of 1638 started 1390 finished PID[44506]
+Job 1403 PID[44702] of 1638 started 1391 finished PID[44521]
+Job 1404 PID[44717] of 1638 started 1394 finished PID[44567]
+Job 1405 PID[44732] of 1638 started 1395 finished PID[44582]
+Job 1406 PID[44747] of 1638 started 1396 finished PID[44597]
+Job 1407 PID[44762] of 1638 started 1397 finished PID[44612]
+Job 1408 PID[44777] of 1638 started 1398 finished PID[44627]
+Job 1409 PID[44792] of 1638 started 1399 finished PID[44642]
+Job 1410 PID[44807] of 1638 started 1400 finished PID[44657]
+Job 1411 PID[44822] of 1638 started 1402 finished PID[44687]
+Job 1412 PID[44837] of 1638 started 1401 finished PID[44672]
+Job 1413 PID[44853] of 1638 started 1403 finished PID[44702]
+Job 1414 PID[44868] of 1638 started 1404 finished PID[44717]
+Job 1415 PID[44883] of 1638 started 1405 finished PID[44732]
+Job 1416 PID[44904] of 1638 started 1407 finished PID[44762]
+Job 1417 PID[44921] of 1638 started 1406 finished PID[44747]
+Job 1418 PID[44936] of 1638 started 1408 finished PID[44777]
+Job 1419 PID[44951] of 1638 started 1409 finished PID[44792]
+Job 1420 PID[44966] of 1638 started 1411 finished PID[44822]
+Job 1421 PID[44981] of 1638 started 1410 finished PID[44807]
+Job 1422 PID[44996] of 1638 started 1413 finished PID[44853]
+Job 1423 PID[45011] of 1638 started 1414 finished PID[44868]
+Job 1424 PID[45026] of 1638 started 1415 finished PID[44883]
+Job 1425 PID[45041] of 1638 started 1412 finished PID[44837]
+Job 1426 PID[45056] of 1638 started 1417 finished PID[44921]
+Job 1427 PID[45071] of 1638 started 1416 finished PID[44904]
+Job 1428 PID[45086] of 1638 started 1418 finished PID[44936]
+Job 1429 PID[45101] of 1638 started 1419 finished PID[44951]
+Job 1430 PID[45116] of 1638 started 1421 finished PID[44981]
+Job 1431 PID[45131] of 1638 started 1420 finished PID[44966]
+Job 1432 PID[45146] of 1638 started 1422 finished PID[44996]
+Job 1433 PID[45161] of 1638 started 1424 finished PID[45026]
+Job 1434 PID[45176] of 1638 started 1425 finished PID[45041]
+Job 1435 PID[45191] of 1638 started 1423 finished PID[45011]
+Job 1436 PID[45206] of 1638 started 1428 finished PID[45086]
+Job 1437 PID[45221] of 1638 started 1427 finished PID[45071]
+Job 1438 PID[45236] of 1638 started 1426 finished PID[45056]
+Job 1439 PID[45251] of 1638 started 1429 finished PID[45101]
+Job 1440 PID[45266] of 1638 started 1430 finished PID[45116]
+Job 1441 PID[45281] of 1638 started 1431 finished PID[45131]
+Job 1442 PID[45296] of 1638 started 1432 finished PID[45146]
+Job 1443 PID[45311] of 1638 started 1433 finished PID[45161]
+Job 1444 PID[45326] of 1638 started 1435 finished PID[45191]
+Job 1445 PID[45341] of 1638 started 1434 finished PID[45176]
+Job 1446 PID[45357] of 1638 started 1436 finished PID[45206]
+Job 1447 PID[45372] of 1638 started 1437 finished PID[45221]
+Job 1448 PID[45387] of 1638 started 1438 finished PID[45236]
+Job 1449 PID[45402] of 1638 started 1439 finished PID[45251]
+Job 1450 PID[45417] of 1638 started 1442 finished PID[45296]
+Job 1451 PID[45432] of 1638 started 1441 finished PID[45281]
+Job 1452 PID[45447] of 1638 started 1443 finished PID[45311]
+Job 1453 PID[45462] of 1638 started 1440 finished PID[45266]
+Job 1454 PID[45477] of 1638 started 1445 finished PID[45341]
+Job 1455 PID[45492] of 1638 started 1444 finished PID[45326]
+Job 1456 PID[45507] of 1638 started 1447 finished PID[45372]
+Job 1457 PID[45523] of 1638 started 1446 finished PID[45357]
+Job 1458 PID[45538] of 1638 started 1448 finished PID[45387]
+Job 1459 PID[45553] of 1638 started 1449 finished PID[45402]
+Job 1460 PID[45568] of 1638 started 1450 finished PID[45417]
+Job 1461 PID[45583] of 1638 started 1451 finished PID[45432]
+Job 1462 PID[45598] of 1638 started 1454 finished PID[45477]
+Job 1463 PID[45613] of 1638 started 1452 finished PID[45447]
+Job 1464 PID[45628] of 1638 started 1455 finished PID[45492]
+Job 1465 PID[45643] of 1638 started 1453 finished PID[45462]
+Job 1466 PID[45658] of 1638 started 1457 finished PID[45523]
+Job 1467 PID[45673] of 1638 started 1456 finished PID[45507]
+Job 1468 PID[45688] of 1638 started 1458 finished PID[45538]
+Job 1469 PID[45703] of 1638 started 1459 finished PID[45553]
+Job 1470 PID[45718] of 1638 started 1460 finished PID[45568]
+Job 1471 PID[45733] of 1638 started 1462 finished PID[45598]
+Job 1472 PID[45748] of 1638 started 1463 finished PID[45613]
+Job 1473 PID[45763] of 1638 started 1461 finished PID[45583]
+Job 1474 PID[45778] of 1638 started 1464 finished PID[45628]
+Job 1475 PID[45793] of 1638 started 1465 finished PID[45643]
+Job 1476 PID[45808] of 1638 started 1467 finished PID[45673]
+Job 1477 PID[45823] of 1638 started 1466 finished PID[45658]
+Job 1478 PID[45838] of 1638 started 1468 finished PID[45688]
+Job 1479 PID[45854] of 1638 started 1469 finished PID[45703]
+Job 1480 PID[45869] of 1638 started 1470 finished PID[45718]
+Job 1481 PID[45884] of 1638 started 1473 finished PID[45763]
+Job 1482 PID[45899] of 1638 started 1472 finished PID[45748]
+Job 1483 PID[45914] of 1638 started 1471 finished PID[45733]
+Job 1484 PID[45929] of 1638 started 1474 finished PID[45778]
+Job 1485 PID[45944] of 1638 started 1475 finished PID[45793]
+Job 1486 PID[45959] of 1638 started 1478 finished PID[45838]
+Job 1487 PID[45974] of 1638 started 1476 finished PID[45808]
+Job 1488 PID[45989] of 1638 started 1477 finished PID[45823]
+Job 1489 PID[46004] of 1638 started 1480 finished PID[45869]
+Job 1490 PID[46019] of 1638 started 1479 finished PID[45854]
+Job 1491 PID[46034] of 1638 started 1481 finished PID[45884]
+Job 1492 PID[46049] of 1638 started 1483 finished PID[45914]
+Job 1493 PID[46064] of 1638 started 1484 finished PID[45929]
+Job 1494 PID[46079] of 1638 started 1482 finished PID[45899]
+Job 1495 PID[46094] of 1638 started 1485 finished PID[45944]
+Job 1496 PID[46109] of 1638 started 1486 finished PID[45959]
+Job 1497 PID[46124] of 1638 started 1487 finished PID[45974]
+Job 1498 PID[46139] of 1638 started 1488 finished PID[45989]
+Job 1499 PID[46154] of 1638 started 1489 finished PID[46004]
+Job 1500 PID[46169] of 1638 started 1490 finished PID[46019]
+Job 1501 PID[46184] of 1638 started 1491 finished PID[46034]
+Job 1502 PID[46199] of 1638 started 1493 finished PID[46064]
+Job 1503 PID[46214] of 1638 started 1492 finished PID[46049]
+Job 1504 PID[46229] of 1638 started 1494 finished PID[46079]
+Job 1505 PID[46244] of 1638 started 1496 finished PID[46109]
+Job 1506 PID[46259] of 1638 started 1495 finished PID[46094]
+Job 1507 PID[46274] of 1638 started 1498 finished PID[46139]
+Job 1508 PID[46289] of 1638 started 1497 finished PID[46124]
+Job 1509 PID[46304] of 1638 started 1499 finished PID[46154]
+Job 1510 PID[46319] of 1638 started 1500 finished PID[46169]
+Job 1511 PID[46335] of 1638 started 1503 finished PID[46214]
+Job 1512 PID[46350] of 1638 started 1501 finished PID[46184]
+Job 1513 PID[46365] of 1638 started 1504 finished PID[46229]
+Job 1514 PID[46380] of 1638 started 1502 finished PID[46199]
+Job 1515 PID[46395] of 1638 started 1505 finished PID[46244]
+Job 1516 PID[46416] of 1638 started 1506 finished PID[46259]
+Job 1517 PID[46431] of 1638 started 1507 finished PID[46274]
+Job 1518 PID[46446] of 1638 started 1508 finished PID[46289]
+Job 1519 PID[46461] of 1638 started 1509 finished PID[46304]
+Job 1520 PID[46476] of 1638 started 1510 finished PID[46319]
+Job 1521 PID[46491] of 1638 started 1512 finished PID[46350]
+Job 1522 PID[46506] of 1638 started 1514 finished PID[46380]
+Job 1523 PID[46521] of 1638 started 1511 finished PID[46335]
+Job 1524 PID[46536] of 1638 started 1515 finished PID[46395]
+Job 1525 PID[46551] of 1638 started 1513 finished PID[46365]
+Job 1526 PID[46566] of 1638 started 1517 finished PID[46431]
+Job 1527 PID[46581] of 1638 started 1516 finished PID[46416]
+Job 1528 PID[46596] of 1638 started 1518 finished PID[46446]
+Job 1529 PID[46611] of 1638 started 1520 finished PID[46476]
+Job 1530 PID[46626] of 1638 started 1519 finished PID[46461]
+Job 1531 PID[46641] of 1638 started 1522 finished PID[46506]
+Job 1532 PID[46656] of 1638 started 1521 finished PID[46491]
+Job 1533 PID[46672] of 1638 started 1525 finished PID[46551]
+Job 1534 PID[46687] of 1638 started 1524 finished PID[46536]
+Job 1535 PID[46702] of 1638 started 1523 finished PID[46521]
+Job 1536 PID[46717] of 1638 started 1527 finished PID[46581]
+Job 1537 PID[46732] of 1638 started 1528 finished PID[46596]
+Job 1538 PID[46747] of 1638 started 1526 finished PID[46566]
+Job 1539 PID[46762] of 1638 started 1529 finished PID[46611]
+Job 1540 PID[46777] of 1638 started 1530 finished PID[46626]
+Job 1541 PID[46793] of 1638 started 1531 finished PID[46641]
+Job 1542 PID[46808] of 1638 started 1533 finished PID[46672]
+Job 1543 PID[46823] of 1638 started 1534 finished PID[46687]
+Job 1544 PID[46838] of 1638 started 1532 finished PID[46656]
+Job 1545 PID[46853] of 1638 started 1535 finished PID[46702]
+Job 1546 PID[46868] of 1638 started 1536 finished PID[46717]
+Job 1547 PID[46883] of 1638 started 1537 finished PID[46732]
+Job 1548 PID[46898] of 1638 started 1538 finished PID[46747]
+Job 1549 PID[46913] of 1638 started 1539 finished PID[46762]
+Job 1550 PID[46928] of 1638 started 1540 finished PID[46777]
+Job 1551 PID[46943] of 1638 started 1541 finished PID[46793]
+Job 1552 PID[46958] of 1638 started 1542 finished PID[46808]
+Job 1553 PID[46973] of 1638 started 1544 finished PID[46838]
+Job 1554 PID[46988] of 1638 started 1543 finished PID[46823]
+Job 1555 PID[47003] of 1638 started 1546 finished PID[46868]
+Job 1556 PID[47018] of 1638 started 1548 finished PID[46898]
+Job 1557 PID[47033] of 1638 started 1545 finished PID[46853]
+Job 1558 PID[47048] of 1638 started 1547 finished PID[46883]
+Job 1559 PID[47063] of 1638 started 1549 finished PID[46913]
+Job 1560 PID[47078] of 1638 started 1550 finished PID[46928]
+Job 1561 PID[47093] of 1638 started 1551 finished PID[46943]
+Job 1562 PID[47108] of 1638 started 1552 finished PID[46958]
+Job 1563 PID[47123] of 1638 started 1553 finished PID[46973]
+Job 1564 PID[47138] of 1638 started 1554 finished PID[46988]
+Job 1565 PID[47153] of 1638 started 1556 finished PID[47018]
+Job 1566 PID[47168] of 1638 started 1555 finished PID[47003]
+Job 1567 PID[47183] of 1638 started 1558 finished PID[47048]
+Job 1568 PID[47198] of 1638 started 1557 finished PID[47033]
+Job 1569 PID[47213] of 1638 started 1559 finished PID[47063]
+Job 1570 PID[47228] of 1638 started 1560 finished PID[47078]
+Job 1571 PID[47243] of 1638 started 1561 finished PID[47093]
+Job 1572 PID[47258] of 1638 started 1562 finished PID[47108]
+Job 1573 PID[47273] of 1638 started 1563 finished PID[47123]
+Job 1574 PID[47288] of 1638 started 1564 finished PID[47138]
+Job 1575 PID[47303] of 1638 started 1565 finished PID[47153]
+Job 1576 PID[47318] of 1638 started 1568 finished PID[47198]
+Job 1577 PID[47333] of 1638 started 1567 finished PID[47183]
+Job 1578 PID[47348] of 1638 started 1569 finished PID[47213]
+Job 1579 PID[47363] of 1638 started 1566 finished PID[47168]
+Job 1580 PID[47378] of 1638 started 1570 finished PID[47228]
+Job 1581 PID[47393] of 1638 started 1571 finished PID[47243]
+Job 1582 PID[47408] of 1638 started 1572 finished PID[47258]
+Job 1583 PID[47423] of 1638 started 1573 finished PID[47273]
+Job 1584 PID[47438] of 1638 started 1575 finished PID[47303]
+Job 1585 PID[47454] of 1638 started 1574 finished PID[47288]
+Job 1586 PID[47469] of 1638 started 1576 finished PID[47318]
+Job 1587 PID[47484] of 1638 started 1577 finished PID[47333]
+Job 1588 PID[47499] of 1638 started 1579 finished PID[47363]
+Job 1589 PID[47514] of 1638 started 1578 finished PID[47348]
+Job 1590 PID[47529] of 1638 started 1580 finished PID[47378]
+Job 1591 PID[47544] of 1638 started 1581 finished PID[47393]
+Job 1592 PID[47559] of 1638 started 1582 finished PID[47408]
+Job 1593 PID[47574] of 1638 started 1583 finished PID[47423]
+Job 1594 PID[47589] of 1638 started 1585 finished PID[47454]
+Job 1595 PID[47604] of 1638 started 1586 finished PID[47469]
+Job 1596 PID[47625] of 1638 started 1584 finished PID[47438]
+Job 1597 PID[47640] of 1638 started 1587 finished PID[47484]
+Job 1598 PID[47655] of 1638 started 1589 finished PID[47514]
+Job 1599 PID[47672] of 1638 started 1590 finished PID[47529]
+Job 1600 PID[47687] of 1638 started 1588 finished PID[47499]
+Job 1601 PID[47702] of 1638 started 1591 finished PID[47544]
+Job 1602 PID[47718] of 1638 started 1593 finished PID[47574]
+Job 1603 PID[47733] of 1638 started 1595 finished PID[47604]
+Job 1604 PID[47748] of 1638 started 1592 finished PID[47559]
+Job 1605 PID[47763] of 1638 started 1594 finished PID[47589]
+Job 1606 PID[47778] of 1638 started 1596 finished PID[47625]
+Job 1607 PID[47793] of 1638 started 1597 finished PID[47640]
+Job 1608 PID[47808] of 1638 started 1598 finished PID[47655]
+Job 1609 PID[47823] of 1638 started 1599 finished PID[47672]
+Job 1610 PID[47838] of 1638 started 1601 finished PID[47702]
+Job 1611 PID[47853] of 1638 started 1600 finished PID[47687]
+Job 1612 PID[47868] of 1638 started 1602 finished PID[47718]
+Job 1613 PID[47883] of 1638 started 1603 finished PID[47733]
+Job 1614 PID[47901] of 1638 started 1604 finished PID[47748]
+Job 1615 PID[47916] of 1638 started 1605 finished PID[47763]
+Job 1616 PID[47931] of 1638 started 1607 finished PID[47793]
+Job 1617 PID[47946] of 1638 started 1608 finished PID[47808]
+Job 1618 PID[47961] of 1638 started 1606 finished PID[47778]
+Job 1619 PID[47976] of 1638 started 1609 finished PID[47823]
+Job 1620 PID[47991] of 1638 started 1610 finished PID[47838]
+Job 1621 PID[48006] of 1638 started 1611 finished PID[47853]
+Job 1622 PID[48021] of 1638 started 1612 finished PID[47868]
+Job 1623 PID[48036] of 1638 started 1613 finished PID[47883]
+Job 1624 PID[48051] of 1638 started 1615 finished PID[47916]
+Job 1625 PID[48066] of 1638 started 1614 finished PID[47901]
+Job 1626 PID[48081] of 1638 started 1616 finished PID[47931]
+Job 1627 PID[48096] of 1638 started 1618 finished PID[47961]
+Job 1628 PID[48111] of 1638 started 1617 finished PID[47946]
+Job 1629 PID[48126] of 1638 started 1619 finished PID[47976]
+Job 1630 PID[48141] of 1638 started 1620 finished PID[47991]
+Job 1631 PID[48156] of 1638 started 1621 finished PID[48006]
+Job 1632 PID[48171] of 1638 started 1622 finished PID[48021]
+Job 1633 PID[48186] of 1638 started 1623 finished PID[48036]
+Job 1634 PID[48201] of 1638 started 1626 finished PID[48081]
+Job 1635 PID[48216] of 1638 started 1624 finished PID[48051]
+Job 1636 PID[48231] of 1638 started 1625 finished PID[48066]
+Job 1637 PID[48246] of 1638 started 1627 finished PID[48096]
+Job 1638 PID[48261] of 1638 started 1629 finished PID[48126]
+Job 1638 PID[xxxxx] of 1638 started 1628 finished PID[48111]
+Job 1638 PID[xxxxx] of 1638 started 1630 finished PID[48141]
+Job 1638 PID[xxxxx] of 1638 started 1631 finished PID[48156]
+Job 1638 PID[xxxxx] of 1638 started 1632 finished PID[48171]
+Job 1638 PID[xxxxx] of 1638 started 1633 finished PID[48186]
+Job 1638 PID[xxxxx] of 1638 started 1634 finished PID[48201]
+Job 1638 PID[xxxxx] of 1638 started 1635 finished PID[48216]
+JoThu May 26 18:20:06 MDT 2016
+b 1638 PID[xxxxx] of 1638 started 1636 finished PID[48231]
+Job 1638 PID[xxxxx] of 1638 started 1638 finished PID[48261]
+Job 1638 PID[xxxxx] of 1638 started 1637 finished PID[48246]
+Main process exiting.
+Triangulating Polygons: Complete
+Writing : merge_poly.lgi
+
+Merging triangulated polygon meshes
+Merging part  1  of  10
+Merging part  2  of  10
+Merging part  3  of  10
+Merging part  4  of  10
+Merging part  5  of  10
+Merging part  6  of  10
+Merging part  7  of  10
+Merging part  8  of  10
+Merging part  9  of  10
+Merging part  10  of  10
+Process 1 finished
+Process 2 finished
+Process 3 finished
+Process 4 finished
+Process 5 finished
+Process 6 finished
+Process 7 finished
+Process 8 finished
+Process 9 finished
+Process 10 finished
+Merging triangulated polygon meshes: Complete
+
+Output files for FEHM calculations are written in :
+   full_mesh.gmv
+   full_mesh.inp
+   tri_fracture.stor
+================================================================================
+Statistical summary of generated DFN is in stat.pdf file.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~ Program: DFNWorks / DFNFlow lead by PFLOTRAN ~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Following python scripts will run to prepare ~~~~~~~~~
+~~~~~~ input data for PFLOTRAN running ~~~~~~~~~~~~~~~~~~~
+~~ Developers: Satish Karra, Nataliia Makedonska ~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--> Writing pflotran uge file from lagrit
+--> Reading *.inp file
+--> Calling Lagrit
+--> Finished reading material id
+--> Finished writing material ids to file
+--> Beginning writing to HDF5 file
+--> Allocating cell index array
+--> Writing cell indices
+--> Allocating permeability array
+--> reading permeability data
+--> Note: this script assumes isotropic permeability
+--> Done writing permeability to h5 file
+--> reading aperture data
+--> Creating a new uge file with correct volumes and areas
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_back_n.ex" corresponding to the zone file: pboundary_back_n.zone
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_front_s.ex" corresponding to the zone file: pboundary_front_s.zone
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_left_w.ex" corresponding to the zone file: pboundary_left_w.zone
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_right_e.ex" corresponding to the zone file: pboundary_right_e.zone
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_top.ex" corresponding to the zone file: pboundary_top.zone
+--> Opening zone file
+--> Calculating number of nodes
+--> Reading boundary node ids
+--> Finished with zone file
+--> Opening uge file
+--> Finished with uge file
+--> Finished calculating boundary connections
+--> Finished writing ex file "pboundary_bottom.ex" corresponding to the zone file: pboundary_bottom.zone
+--> Reading inp data
+--> Writing inp data to vtk format
+Make sure you use proper input file for PFLOTRAN!!!
+------------------------------ Provenance --------------------------------------
+pflotran_compile_date_time = unknown
+pflotran_compile_user = unknown
+pflotran_compile_hostname = unknown
+pflotran_changeset = unknown
+pflotran_status = unknown
+petsc_changeset = unknown
+petsc_status = unknown
+--------------------------------------------------------------------------------
+ pflotran card:: DFN
+ pflotran card:: GRID
+ pflotran card:: PRINT_PRIMAL_GRID
+ pflotran card:: FLUID_PROPERTY
+ pflotran card:: DATASET
+ pflotran card:: MATERIAL_PROPERTY
+ pflotran card:: CHARACTERISTIC_CURVES
+ pflotran card:: OUTPUT
+ pflotran card:: TIME
+ pflotran card:: REGION
+ All
+ pflotran card:: REGION
+ inflow
+ pflotran card:: REGION
+ outflow
+ pflotran card:: FLOW_CONDITION
+ initial
+ "PRESSURE UNITS" set to default value.
+ WARNING: "iphase" not set in condition; set to 1
+ pflotran card:: FLOW_CONDITION
+ outflow
+ "PRESSURE UNITS" set to default value.
+ WARNING: "iphase" not set in condition; set to 1
+ pflotran card:: FLOW_CONDITION
+ inflow
+ "PRESSURE UNITS" set to default value.
+ WARNING: "iphase" not set in condition; set to 1
+ pflotran card:: INITIAL_CONDITION
+ "Initial Condition name" set to default value.
+ pflotran card:: BOUNDARY_CONDITION
+ pflotran card:: BOUNDARY_CONDITION
+ pflotran card:: STRATA
+ pflotran card:: END_SUBSURFACE
+ Testing group: Permeability
+ Group "Permeability" in HDF5 file "dfn_properties.h5" not found in file.  Therefore, assuming a cell-indexed dataset.
+ Opening hdf5 file: dfn_properties.h5
+ Setting up grid cell indices
+ Reading dataset: Cell Ids
+   0.07 Seconds to set up indices
+ Reading dataset: Permeability
+   0.07 Seconds to read real array
+ Closing hdf5 file: dfn_properties.h5
+ Default HDF5 method is used in Initialization
+   Beginning setup of FLOW SNES
+ number of dofs =   1, number of phases =   1
+ mode = Richards: p
+ Solver: bcgs
+ Preconditioner: bjacobi
+   Finished setting up FLOW SNES
+
+FLOW Time Stepper
+max steps: 999999
+max constant cumulative time steps: 5
+max cuts: 16
+
+FLOW Newton Solver
+        atol:  1.0000E-50
+        rtol:  1.0000E-08
+        stol:  1.0000E-08
+        dtol: -2.0000E+00
+     maxnorm:  1.0000E+20
+   inftolres: -9.9900E+02
+   inftolupd: -9.9900E+02
+inftolrelupd: -9.9900E+02
+inftolsclres: -9.9900E+02
+    max iter:    50
+    min iter:     1
+        maxf: 10000
+
+matrix type:baij                
+precond. matrix type:baij                
+inexact newton: off
+print convergence: on
+print detailed convergence: off
+check infinity norm: on
+
+FLOW Linear Solver
+   solver:  bcgs
+  precond:  bjacobi
+     atol:  1.0000E-50
+     rtol:  1.0000E-05
+     dtol:  1.0000E+04
+ max iter:  10000
+ --> write rate output file: dfn_explicit-darcyvel-000
+       6.56 Seconds to write to Rates file.
+ --> write vtk output file: dfn_explicit-000.vtk
+ max_local_size_saved:       200059
+       3.90 Seconds to write to VTK file(s)
+ 
+   Finished Initialization
+
+== RICHARDS FLOW ===============================================================
+  0 2r: 3.82E+21 2x: 0.00E+00 2u: 0.00E+00 ir: 4.69E+20 iu: 0.00E+00 rsn:   0
+  1 2r: 6.75E+13 2x: 1.88E+09 2u: 5.35E+08 ir: 5.98E+12 iu: 9.87E+05 rsn:   0
+  2 2r: 4.17E-05 2x: 1.89E+09 2u: 1.89E+07 ir: 1.79E-05 iu: 4.79E+04 rsn: rtol
+ 
+  --> SNES Linear/Non-Linear Iterations =         2225  /            2
+ --> SNES Residual:   4.165451E-05  0.000000E+00  1.794418E-05
+ 
+  --> max chng: dpmx=   9.8675E+05
+ 
+ --> write rate output file: dfn_explicit-darcyvel-001
+       7.48 Seconds to write to Rates file.
+ --> write vtk output file: dfn_explicit-001.vtk
+       4.17 Seconds to write to VTK file(s)
+
+FLOW TS BE steps =      1 newton =        2 linear =       2225 cuts =      0
+FLOW TS BE Wasted Linear Iterations = 0
+FLOW TS BE SNES time = 0.0 seconds
+
+ Wall Clock Time:  1.9470E+02 [sec]   3.2450E+00 [min]   5.4084E-02 [hr]
+--> Reading inp data
+--> Writing inp data to vtk format
+Make sure you use proper input file for Transport!!!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Program: DFNWorks / DFNTrans V1.0, C code, Linux ~~~~~~~~~~~~~
+~~~~~~~~~~~~ April 1st, 2015.  LA-CC-14-091 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ This program was prepared at Los Alamos National Laboratory (LANL),
+ Earth and Environmental Sciences Division, Computational Earth
+ Science Group (EES-16), Subsurface Flow and Transport Team.
+ All rights in the program are reserved by the DOE and LANL.
+ Permission is granted to the public to copy and use this software
+ without charge, provided that this Notice and any statement of
+ authorship are reproduced on all copies. Neither the U.S. Government
+ nor LANS makes any warranty, express or implied, or assumes
+ any liability or responsibility for the use of this software.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~Developers: Nataliia Makedonska, Scott L. Painter, Carl W. Gable
+ Last update Apr. 1st, 2015, by N. Makedonska (nataliia@lanl.gov)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ PROGRAM STARTS. current time: Thu May 26 18:49:11 2016
+
+
+ Particles velocities are calculated in [m/years].
+
+ All output files will be written in PTresults/
+---------------------GRID DATA READING--------------------------
+
+ OPEN AND READ FILE: params.txt
+
+ Number of fractures in the domain = 1638
+
+ OPEN AND READ AVS FILE: full_mesh.inp
+
+ Total number of nodes: 1931692, Total number of elements (triangles): 3949444
+
+ OPEN AND READ STOR FILE: tri_fracture.stor
+
+ Total number of edges in Voronoy polygons = 13694408, total number of nodes = 1931692
+
+ Memory allocation is done successfully
+
+ OPEN AND READ FILE: full_mesh.inp
+
+ OPEN AND READ FILE: tri_fracture.stor
+
+----------------FLOW SOLUTION DATA READING--------------------
+
+ PFLOTRAN: OPEN AND READ FILE full_mesh_vol_area.uge to read area coefficients.
+
+
+ OPEN AND READ FILE: aperture.dat
+
+ PFLOTRAN: OPEN AND READ FILE: darcyvel.dat
+
+
+ PFLOTRAN: OPEN AND READ FILE: cellinfo.dat
+
+ Reading pressure
+ MAX pressure 2.00000000e+00 [MPa]; MIN pressure 1.00000000e+00 [MPa]
+
+ OPEN AND READ FILE: aperture.dat
+
+ Data Reading is Done
+
+---------------------BOUNDARY CONDITIONS----------------------
+
+ OPEN AND READ FILE: allboundaries.zone
+
+ Read the number and indices of nodes defined in flow in and flow out zones
+
+ Number of nodes 295 in flow-in zone.
+
+ Number of nodes 438 in flow-out  zone.
+  GRID CHECK starts
+  GRID CHECK is done
+
+ Converting 3d nodes coordinates to 2d xy parallel plane
+
+----------------VELOCITY RECONSTRUCTION-----------------------
+
+ Darcy's velocities reconstruction
+ Velocities on nodes are calculated
+
+------------------PARTICLE TRACKING---------------------------
+
+ All output trajectory files will be written in PTresults/trajectories/
+ Note: if the directory exists all the files in it will be replaced.
+ 10 fracture(s) in in-flow boundary zone
+
+ Initially particles have the same starting region
+
+  2000000 time steps in the current run
+
+  Initial number of particles being placed: 500
+Done 20.0 % of particles.
+Done 40.0 % of particles.
+Done 60.0 % of particles.
+Done 80.0 % of particles.
+
+  Number of particles that went out through flow-out boundary: 500
+
+ PROGRAM ENDS. current time: Thu May 26 18:58:14 2016
+
